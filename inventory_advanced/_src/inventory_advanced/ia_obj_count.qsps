@@ -1,0 +1,14 @@
+QSP-Game Устанавливает или возвращает количество предмета
+
+!@ $0 - название предмета
+!@ #1 - количество (если не указано, значит получаем значение)
+!@ #r - количество предмета
+# ia_obj_count
+local $name_ = $args[0]
+if no $name_: exit
+if arrsize('args') = 1: result = IA_COUNT[$name_] & exit
+
+@ia_internal_del_obj($name_)
+IA_COUNT[$name_] = args[1]
+@ia_internal_add_obj($name_)
+-- ia_obj_count ---------------------------------

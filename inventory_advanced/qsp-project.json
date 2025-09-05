@@ -1,0 +1,33 @@
+{
+    "project": [
+        {
+            "module": "_output_game\\invadv_test.qsp",
+            "folders": [
+                {
+                    "path": "_src\\invadv_test\\"
+                }
+            ]
+        },
+        {
+            "module": "_output_game\\inventory_advanced.qsp",
+            "folders": [
+                {
+                    "path": "_src\\inventory_advanced\\"
+                }
+            ]
+        }
+    ],
+    "start": "_output_game\\invadv_test.qsp",
+    "player": "..\\..\\..\\..\\QSP 590 QG 410b\\qspgui.exe",
+    "_assets": [
+        {
+            "output": ".\\_output_game",
+            "_folders": [
+                {"path": ".\\_src\\image"}
+            ],
+            "files": [
+                {"path": ".\\_src\\orudo_151beta.qproj"}
+            ]
+        }
+    ]
+}

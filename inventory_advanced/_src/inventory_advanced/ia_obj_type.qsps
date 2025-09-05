@@ -1,0 +1,19 @@
+QSP-Game ia_obj_type
+
+# ia_obj_type
+local $obj_name_, $obj_type_ = $args[0], $args[1]
+
+if $obj_name_:
+	if $obj_type_:
+		if $obj_type_ <> $IA_TYPE[$obj_name_]:
+			gs 'ia_internal_del_obj', $obj_name_
+			$IA_TYPE[$obj_name_] = $obj_type_
+			gs 'ia_internal_add_obj', $obj_name_
+		end
+	else:
+		$result = $IA_TYPE[$obj_name_]
+	end
+	
+end
+
+-- ia_obj_type ---------------------------------

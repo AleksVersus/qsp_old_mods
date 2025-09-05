@@ -1,0 +1,16 @@
+QSP-Game ia_add_obj
+
+# ia_add_obj
+local $name_, $type_, count_ = $args[0], $args[1], args[2]
+if no $type_: $type_ = $IA_TYPE[$name_]
+if no count_: count_ = 1
+
+if $name_ :
+	@ia_internal_del_obj($name_)	& !@ удаляем объект со старым наименованием
+	IA_COUNT[$name_] += count_	& !@ изменяем количество
+
+	if $type_: $IA_TYPE[$name_] = $type_
+	
+	@ia_internal_add_obj($name_)	& !@ добавляем объект с новым наименованием
+end
+-- ia_add_obj ---------------------------------

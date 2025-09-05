@@ -1,0 +1,18 @@
+QSP-Game ia_del_obj
+
+# ia_del_obj
+local $name_, count_ = $args[0], args[1]
+if no count_: count_ = 1
+$type_ = $IA_TYPE[$name_]
+
+if $name_ :
+	@ia_internal_del_obj($name_)
+	IA_COUNT[$name_] -= count_
+	if IA_COUNT[$name_] > 0:	
+		@ia_internal_add_obj($name_) & !@ если число всё ещё больше нуля, создаём предмет с новым названием
+	else:
+		killvar IA_COUNT, $name_
+		killvar $IA_TYPE, $name_
+	end
+end
+-- ia_del_obj ---------------------------------

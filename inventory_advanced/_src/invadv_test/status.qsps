@@ -1,0 +1,10 @@
+QSP-Game status
+
+# status
+clr
+pl 'Осталось:'
+pl 'деньги '+@ia_obj_count('деньги')+' '+@ia_obj_type('деньги')
+pl 'шишки '+@ia_obj_count('шишка')+' '+@ia_obj_type('шишка')
+pl 'гвозди <<$гвозди>>'
+
+-- status ---------------------------------
