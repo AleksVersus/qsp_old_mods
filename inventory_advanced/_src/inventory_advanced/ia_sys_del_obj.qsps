@@ -5,7 +5,7 @@ local $name_ = $args[0]
 local count_ = IA_COUNT[$name_]
 
 
-if $name_ and count_ > 0:
+if $name_ <> '' and count_ > 0:
 	delobj @ia_obj_get_title($name_)
 end
 -- ia_internal_del_obj ---------------------------------

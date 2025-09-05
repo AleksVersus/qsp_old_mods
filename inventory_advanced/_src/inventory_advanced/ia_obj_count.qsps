@@ -5,7 +5,7 @@ QSP-Game Устанавливает или возвращает количест
 !@ #r - количество предмета
 # ia_obj_count
 local $name_ = $args[0]
-if no $name_: exit
+if $name_ = '': exit
 if arrsize('args') = 1: result = IA_COUNT[$name_] & exit
 
 @ia_internal_del_obj($name_)

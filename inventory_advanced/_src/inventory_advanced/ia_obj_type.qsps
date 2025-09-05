@@ -5,8 +5,8 @@ QSP-Game Устанавливает или возвращает единицы �
 !@ $r - единицы измерения
 # ia_obj_type
 local $name_, $type_ = $args[0], $args[1]
-if no $name_: exit
-if no $type_ or arrsize('$args') = 1: $result = $IA_TYPE[$name_] & exit
+if $name_ = '': exit
+if $type_ = '' or arrsize('$args') = 1: $result = $IA_TYPE[$name_] & exit
 
 if $type_ <> $IA_TYPE[$name_]:
 	@ia_internal_del_obj($name_)

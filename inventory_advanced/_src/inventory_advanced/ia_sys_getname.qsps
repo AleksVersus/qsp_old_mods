@@ -2,11 +2,11 @@ QSP-Game Получение отображаемого названия пред
 
 # ia_obj_get_title
 local $name_ = $args[0]
-if no $name_: exit
+if $name_ = '': exit
 local count_ = IA_COUNT[$name_]
 local $type_ = $IA_TYPE[$name_]
 
-local $count_text_ = $iif($type_, '<<count_>> <<$type_>>', $str(count_))
+local $count_text_ = $iif($type_ <> '', '<<count_>> <<$type_>>', $str(count_))
 
 $result = $iif(count_ > 1, '<<$name_>> (<<$count_text_>>)', $name_)
 --- ia_obj_get_title ---------------------------------
