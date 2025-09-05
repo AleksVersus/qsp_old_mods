@@ -7,10 +7,11 @@ QSP-Game Устанавливает или возвращает единицы �
 local $name_, $type_ = $args[0], $args[1]
 if $name_ = '': exit
 if $type_ = '' or arrsize('$args') = 1: $result = $IA_TYPE[$name_] & exit
-
+!@ pl ['ia_obj_type', $name_, 'get']
+local pos_
 if $type_ <> $IA_TYPE[$name_]:
-	@ia_internal_del_obj($name_)
+	pos_ = @ia_internal_del_obj($name_)
 	$IA_TYPE[$name_] = $type_
-	@ia_internal_add_obj($name_)
+	@ia_internal_add_obj($name_, pos_)
 end
 -- ia_obj_type ---------------------------------

@@ -1,0 +1,8 @@
+QSP-Game получение позиции предмета в инвентаре
+
+# ia_sys_getpos
+loop local i = 0 while i < countobj step i += 1:
+	!@ pl ['ia_sys_getpos', $getobj(i+1)]
+	if $getobj(i+1) = $args[0]: result = i+1 & exit
+end
+--- ia_sys_getpos ---------------------------------

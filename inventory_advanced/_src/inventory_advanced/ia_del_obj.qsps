@@ -8,13 +8,15 @@ if $name_ = '': exit
 if no count_: count_ = 1
 $type_ = $IA_TYPE[$name_]
 
-
-@ia_internal_del_obj($name_)
+!@ pl ['ia_del_obj', $name_, count_, $type_]
+local pos_ = @ia_internal_del_obj($name_)
 IA_COUNT[$name_] -= count_
-if IA_COUNT[$name_] > 0:	
-	@ia_internal_add_obj($name_) & !@ если число всё ещё больше нуля, создаём предмет с новым названием
+if IA_COUNT[$name_] > 0:
+	!@ pl ['ia_del_obj', 'restore obj', pos_]
+	@ia_internal_add_obj($name_, pos_) & !@ если число всё ещё больше нуля, создаём предмет с новым названием
 else:
-	killvar 'IA_COUNT', $name_
-	killvar '$IA_TYPE', $name_
+	!@ Эти строки не нужны, так как лучше сохранять типы и количество предмета
+	!@ killvar 'IA_COUNT', $name_
+	!@ killvar '$IA_TYPE', $name_
 end
 -- ia_del_obj ---------------------------------

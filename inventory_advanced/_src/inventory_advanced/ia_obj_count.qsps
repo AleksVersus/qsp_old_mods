@@ -8,7 +8,8 @@ local $name_ = $args[0]
 if $name_ = '': exit
 if arrsize('args') = 1: result = IA_COUNT[$name_] & exit
 
-@ia_internal_del_obj($name_)
+!@ pl ['ia_obj_count', $name_, 'get']
+local pos_ = @ia_internal_del_obj($name_)
 IA_COUNT[$name_] = args[1]
-@ia_internal_add_obj($name_)
+@ia_internal_add_obj($name_, pos_)
 -- ia_obj_count ---------------------------------

@@ -1,11 +1,12 @@
 QSP-Game ia_internal_add_obj
 
 # ia_internal_add_obj
-local $name_ = $args[0]
+local $name_, pos_ = $args[0], args[1]
 local count_ = IA_COUNT[$name_]
+if pos_ = 0: pos_ = countobj + 1
 
-
+!@ pl ['ia_internal_add_obj', $name_, pos_]
 if $name_ <> '' and count_ > 0:
-	addobj @ia_obj_get_title($name_)
+	addobj @ia_obj_get_title($name_), '', pos_
 end
 -- ia_internal_add_obj ---------------------------------

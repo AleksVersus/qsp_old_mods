@@ -19,6 +19,7 @@
     ],
     "start": "_output_game\\invadv_test.qsp",
     "player": "..\\..\\..\\QSP 590 QG 410b\\qspgui.exe",
+    "preprocessor": "On",
     "_assets": [
         {
             "output": ".\\_output_game",

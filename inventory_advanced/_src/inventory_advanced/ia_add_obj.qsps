@@ -8,11 +8,11 @@ local $name_, count_, $type_ = $args[0], args[1], $args[2]
 if $name_ = '': exit
 if $type_ = '': $type_ = $IA_TYPE[$name_]
 if no count_: count_ = 1
-
-@ia_internal_del_obj($name_)	& !@ удаляем объект со старым наименованием
+!@ pl ['ia_add_obj', $name_, count_, $type_]
+local pos_ = @ia_internal_del_obj($name_)	& !@ удаляем объект со старым наименованием
 IA_COUNT[$name_] += count_	& !@ изменяем количество
 
 if $type_ <> '': $IA_TYPE[$name_] = $type_
-
-@ia_internal_add_obj($name_)	& !@ добавляем объект с новым наименованием
+!@ pl ['ia_add_obj', 'restore obj', pos_, 'IA_COUNT: <<IA_COUNT[$name_]>>']
+@ia_internal_add_obj($name_, pos_)	& !@ добавляем объект с новым наименованием
 -- ia_add_obj ---------------------------------

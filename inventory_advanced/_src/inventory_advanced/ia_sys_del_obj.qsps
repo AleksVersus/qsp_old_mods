@@ -4,8 +4,12 @@ QSP-Game ia_internal_del_obj
 local $name_ = $args[0]
 local count_ = IA_COUNT[$name_]
 
-
+local $full_name_
+!@ pl ['ia_internal_del_obj', $name_]
 if $name_ <> '' and count_ > 0:
-	delobj @ia_obj_get_title($name_)
+	$full_name_ = @ia_obj_get_title($name_)
+	result = @ia_sys_getpos($full_name_)
+	!@ pl ['ia_internal_del_obj', $name_, 'delete <<result>>']
+	delobj $full_name_
 end
 -- ia_internal_del_obj ---------------------------------
