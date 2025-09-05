@@ -1,19 +1,16 @@
-QSP-Game ia_obj_type
+QSP-Game Устанавливает или возвращает единицы измерения предмета
 
+!@ $0 - название предмета
+!@ $1 - единицы измерения (если не указано, значит получаем значение)
+!@ $r - единицы измерения
 # ia_obj_type
-local $obj_name_, $obj_type_ = $args[0], $args[1]
+local $name_, $type_ = $args[0], $args[1]
+if no $name_: exit
+if no $type_ or arrsize('$args') = 1: $result = $IA_TYPE[$name_] & exit
 
-if $obj_name_:
-	if $obj_type_:
-		if $obj_type_ <> $IA_TYPE[$obj_name_]:
-			gs 'ia_internal_del_obj', $obj_name_
-			$IA_TYPE[$obj_name_] = $obj_type_
-			gs 'ia_internal_add_obj', $obj_name_
-		end
-	else:
-		$result = $IA_TYPE[$obj_name_]
-	end
-	
+if $type_ <> $IA_TYPE[$name_]:
+	@ia_internal_del_obj($name_)
+	$IA_TYPE[$name_] = $type_
+	@ia_internal_add_obj($name_)
 end
-
 -- ia_obj_type ---------------------------------

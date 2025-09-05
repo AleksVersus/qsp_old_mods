@@ -1,18 +1,20 @@
-QSP-Game ia_del_obj
+QSP-Game Удаление предмета в указанном количестве
 
+!@ $0 - простое название предмета
+!@ #1 - количество предметов (если не указано или 0, будет удалён 1 предмет)
 # ia_del_obj
 local $name_, count_ = $args[0], args[1]
+if no $name_: exit
 if no count_: count_ = 1
 $type_ = $IA_TYPE[$name_]
 
-if $name_ :
-	@ia_internal_del_obj($name_)
-	IA_COUNT[$name_] -= count_
-	if IA_COUNT[$name_] > 0:	
-		@ia_internal_add_obj($name_) & !@ если число всё ещё больше нуля, создаём предмет с новым названием
-	else:
-		killvar IA_COUNT, $name_
-		killvar $IA_TYPE, $name_
-	end
+
+@ia_internal_del_obj($name_)
+IA_COUNT[$name_] -= count_
+if IA_COUNT[$name_] > 0:	
+	@ia_internal_add_obj($name_) & !@ если число всё ещё больше нуля, создаём предмет с новым названием
+else:
+	killvar IA_COUNT, $name_
+	killvar $IA_TYPE, $name_
 end
 -- ia_del_obj ---------------------------------

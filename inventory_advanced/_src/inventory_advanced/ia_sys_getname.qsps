@@ -2,6 +2,7 @@ QSP-Game Получение отображаемого названия пред
 
 # ia_obj_get_title
 local $name_ = $args[0]
+if no $name_: exit
 local count_ = IA_COUNT[$name_]
 local $type_ = $IA_TYPE[$name_]
 
