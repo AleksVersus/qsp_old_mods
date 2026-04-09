@@ -1,0 +1,123 @@
+{
+    "locations": {
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\invadv_test\\status.qsps": [
+            [
+                "status",
+                [
+                    19,
+                    25
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\00_help.qsps": [
+            [
+                "ia_help",
+                [
+                    20,
+                    27
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_del_obj.qsps": [
+            [
+                "ia_del_obj",
+                [
+                    164,
+                    174
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_obj_count.qsps": [
+            [
+                "ia_obj_count",
+                [
+                    178,
+                    190
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_obj_type.qsps": [
+            [
+                "ia_obj_type",
+                [
+                    190,
+                    201
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_add_obj.qsps": [
+            [
+                "ia_internal_add_obj",
+                [
+                    32,
+                    51
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_del_obj.qsps": [
+            [
+                "ia_internal_del_obj",
+                [
+                    32,
+                    51
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_getname.qsps": [
+            [
+                "ia_obj_get_title",
+                [
+                    54,
+                    70
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_getpos.qsps": [
+            [
+                "ia_sys_getpos",
+                [
+                    51,
+                    64
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_add_obj.qsps": [
+            [
+                "ia_add_obj",
+                [
+                    260,
+                    270
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\invadv_test\\start.qsps": [
+            [
+                "start",
+                [
+                    18,
+                    23
+                ]
+            ],
+            [
+                "uc",
+                [
+                    2616,
+                    2618
+                ]
+            ]
+        ]
+    },
+    "files_paths": {
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\invadv_test\\start.qsps": "acb52e1aafd84279b491a66099bc60cf",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_add_obj.qsps": "b2dc1d964e33a2bf0a498b6f03d87f64",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_del_obj.qsps": "befa65d3b30789544dc45d05a8596d8b",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_obj_count.qsps": "0338d098a6eae0b64a80ba20e0fe0024",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_obj_type.qsps": "952866bf296617642e7eae3e63bfca1c",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_getname.qsps": "8c1853623fd5a187a2138541be0effc8",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_getpos.qsps": "31538acb00bb388222740c9d263c1b0c",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\00_help.qsps": "b7aab2594aca97405ee8b9425ac76630",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_add_obj.qsps": "4e6c4a44c28c2f9371ac57ea5b318a5d",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\invadv_test\\status.qsps": "ed9f969c510f5f273dc31b98a630ddc1",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_del_obj.qsps": "9a926efd9ea6c0c79af6413696900e86"
+    }
+}
