@@ -1,0 +1,16 @@
+{
+    "project": [
+        {
+            "module": "_output_game\\simple_time.qsp",
+            "folders": [
+                {
+                    "path": "_src\\"
+                }
+            ],
+            "start_qsploc_file": "_src\\1.qsps"
+        }
+    ],
+    "start": "_output_game\\simple_time.qsp",
+    "player": "..\\..\\..\\QSP 590 QG 410b\\qspgui.exe",
+    "preprocessor": "Off"
+}
