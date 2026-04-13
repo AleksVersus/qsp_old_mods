@@ -1,0 +1,10 @@
+QSP-Game debugger_addCond
+
+# debugger_addCond
+if arrsize('$debugger_args') > 0:
+	$debugger_conditions[] = func('debugger_implode', ' ', '$debugger_args')
+else
+	msg 'Укажите условие'
+end
+-- debugger_addCond ---------------------------------
+

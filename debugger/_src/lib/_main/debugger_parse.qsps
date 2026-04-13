@@ -1,0 +1,19 @@
+QSP-Game debugger_parse
+
+# debugger_parse
+!'
+	$args[0] - line to process
+!'
+gs 'debugger_explode',' ',$args[0], '$debugger_lineParsed'
+killvar '$debugger_args'
+if arrcomp('$debugger_commands','(?i:<<$debugger_lineParsed[0]>>)')<0 AND arrcomp('$debugger_customCommands','(?i:<<$debugger_lineParsed[0]>>)')<0:
+	$debugger_command = ''
+	copyarr '$debugger_args','$debugger_lineParsed'
+else
+	$debugger_command = $debugger_lineParsed[0]
+	killvar '$debugger_lineParsed',0
+	copyarr '$debugger_args','$debugger_lineParsed'
+end
+killvar '$debugger_lineParsed'
+-- debugger_parse ---------------------------------
+

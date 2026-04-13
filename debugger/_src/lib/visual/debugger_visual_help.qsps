@@ -1,0 +1,7 @@
+QSP-Game debugger_visual_help
+
+# debugger_visual_help
+$comm = input('Введите название команды (оставьте пустым, чтобы увидеть весь список)')
+gs 'debugger_process', 'help <<$comm>>'
+-- debugger_visual_help ---------------------------------
+

@@ -1,0 +1,29 @@
+QSP-Game debugger_process
+
+# debugger_process
+!'
+	$args[0] - line to process
+!'
+gs 'debugger_explode', '&', $args[0], '$debugger_processLines'
+
+debugger_dp_len = arrsize('$debugger_processLines')
+debugger_dp_index = 0
+:loop
+	gs 'debugger_parse', trim($debugger_processLines[debugger_dp_index])
+	if debugger_on = 0 AND $debugger_command <> 'debugger':
+		exit
+	elseif 	debugger_on = 0 AND $debugger_command = 'debugger':
+		CMDCLEAR
+		gs 'debugger_debugger'
+	else
+		CMDCLEAR
+		if $debugger_command <> '':
+			gs 'debugger_runCommand'
+		else
+			gs 'debugger_addStr', func('debugger_implode', ' ', '$debugger_args')
+		end
+	end
+	debugger_dp_index += 1
+if debugger_dp_index < debugger_dp_len: jump('loop')
+-- debugger_process ---------------------------------
+

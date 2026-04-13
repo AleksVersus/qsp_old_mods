@@ -1,0 +1,7 @@
+QSP-Game debugger_runVar
+
+# debugger_runVar
+!dynamic dyneval("$result = '<<func('debugger_prepare', $args[0])>>'")
+dynamic func('debugger_prepare', $args[0])
+-- debugger_runVar ---------------------------------
+

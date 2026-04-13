@@ -1,0 +1,11 @@
+QSP-Game debugger_show
+
+# debugger_show
+if debugger_clearOnShow = 1:
+	dynamic "<<$debugger_mods_clear[arrpos('$debugger_mods',$debugger_showMode)]>>"
+end
+usehtml = 0
+dynamic "<<$debugger_showMode>> func('debugger_print','$debugger_code',1)"
+usehtml = 1
+-- debugger_show ---------------------------------
+

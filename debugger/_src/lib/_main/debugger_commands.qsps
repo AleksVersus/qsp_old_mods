@@ -1,0 +1,66 @@
+QSP-Game debugger_commands
+
+# debugger_commands
+$debugger_commands[] = 'debugger'
+$debugger_commands[] = 'clearCode'
+$debugger_commands[] = 'run'
+$debugger_commands[] = 'show'
+$debugger_commands[] = 'autoShow'
+$debugger_commands[] = 'showMode'
+$debugger_commands[] = 'addVar'
+$debugger_commands[] = 'delVar'
+$debugger_commands[] = 'showVars'
+$debugger_commands[] = 'clearVars'
+$debugger_commands[] = 'edit'
+$debugger_commands[] = 'delete'
+$debugger_commands[] = 'insert'
+$debugger_commands[] = 'save'
+$debugger_commands[] = 'load'
+$debugger_commands[] = 'help'
+$debugger_commands[] = 'addCond'
+$debugger_commands[] = 'delCond'
+$debugger_commands[] = 'showCond'
+$debugger_commands[] = 'clearCond'
+$debugger_commands[] = 'createCommand'
+$debugger_commands[] = 'loadCommand'
+$debugger_commands[] = 'updateCommand'
+$debugger_commands[] = 'deleteCommand'
+
+
+
+$debugger_commands_help['debugger'] = '<b>debugger {0 | 1}</b> - Включение/отключение отладчика'
+$debugger_commands_help['clearCode'] = '<b>clearCode</b> - Очистка набраного кода, по умолчанию вызывается при каждом выполненнии кода'
+$debugger_commands_help['run'] = '<b>run (название переменной)</b> - Выполнение набраного кода(по умолчанию после выполнения код очищается) или кода из определенной переменной'
+$debugger_commands_help['show'] = '<b>show</b> - Отображение введенного кода, отображение зависит от режима, по умолчанию происходит очистка окна отображения, если не используется msg'
+$debugger_commands_help['autoShow'] = '<b>autoShow {0 | 1} (msg | pl | p | *pl | *p)</b> - Включение/отключение автоматического показа кода после каждого изменения, с помощью третьего аргумента можно изменить режим вывода'
+$debugger_commands_help['showMode'] = '<b>showMode {msg | pl | p | *pl | *p}</b> - изменение режима вывода информации, по умолчанию msg'
+$debugger_commands_help['addVar'] = '<b>addVar {название переменной} (название переменной)</b> - добавление одной или нескольких переменных в список отображения'
+$debugger_commands_help['delVar'] = '<b>delVar {название переменной} (название переменной)</b> - удаление одной или нескольких переменных из списка отображения'
+$debugger_commands_help['showVars'] = '<b>showVars</b> - отображение списка переменных, зависит от режима вывода информации'
+$debugger_commands_help['clearVars'] = '<b>clearVars</b> - очистка списка переменных'
+$debugger_commands_help['edit'] = '<b>edit {номер строки} {строка кода}</b> - замена строки с определенным номером'
+$debugger_commands_help['delete'] = '<b>delete {номер строки}</b> - удаление строки с определенным номером
+<b>delete {номер строки}-{номер строки}</b> - удаление группы строк'
+$debugger_commands_help['insert'] = '<b>insert {строка кода}</b> - вставка кода в начало
+<b>insert {номер строки} {строка кода}</b> - вставка кода после определенной строки'
+$debugger_commands_help['save'] = '<b>save (название переменной)</b> - сохранение кода в переменную, если переменная не указана, выполняется автосохранение, по умолчанию автосохранение выполняется при каждом выолнении кода до его очистки'
+$debugger_commands_help['load'] = '<b>load (название переменной)</b> - загрузка кода из переменной, если переменная не указана загружается автосохранение'
+$debugger_commands_help['help'] = '<b>help (название команды)</b> - список команд или информация об определенной команде'
+$debugger_commands_help['addCond'] = '<b>addCond {строка кода}</b> - добавление логического выражения в список отображения'
+$debugger_commands_help['delCond'] = '<b>delCond {строка кода}</b> - удаление логического выражения из списка отображения'
+$debugger_commands_help['showCond'] = '<b>showCond</b> - отображение результатов логических выражений' 
+$debugger_commands_help['clearCond'] = '<b>clearCond</b> - очистка списка логических выражений' 
+$debugger_commands_help['createCommand'] = '<b>createCommand {название} (переменная с кодом)</b> - создание новой пользовательской команды, если переменная с кодом не указана, то команда создается с текущим набранным кодом'
+$debugger_commands_help['loadCommand'] = '<b>loadCommand {название}</b> - загрузка кода команды (для последующего редактирования)'
+$debugger_commands_help['updateCommand'] = '<b>updateCommand {название} (переменная с кодом)</b> - обновление кода комманды, если переменная с кодом не указана, то команда создается с текущим набранным кодом' 
+$debugger_commands_help['deleteCommand'] = '<b>deleteCommand {название}</b> - удаление пользовательской команды' 
+
+$debugger_commands_help[] = 'У команд в фигурных скобках указаны обязательные параметры, а в круглых необязательные.'
+
+$visual_main[] = 'Отладка:debugger_visual_debug'
+$visual_main[] = 'Переменные:debugger_visual_vars'
+$visual_main[] = 'Условия:debugger_visual_cond'
+$visual_main[] = 'Команды:debugger_visual_commands'
+$visual_main[] = 'Помощь:debugger_visual_help'
+-- debugger_commands ---------------------------------
+

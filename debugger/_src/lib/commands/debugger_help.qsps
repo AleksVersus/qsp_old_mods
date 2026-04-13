@@ -1,0 +1,23 @@
+QSP-Game debugger_help
+
+# debugger_help
+if debugger_clearOnShow = 1:
+	dynamic "<<$debugger_mods_clear[arrpos('$debugger_mods',$debugger_showMode)]>>"
+end
+if $debugger_args <> '':
+	$debugger_strToShow = $debugger_commands_help[$debugger_args]
+	if $debugger_strToShow = '':
+		msg 'Нет информации о команде <<$debugger_args>>'
+	else
+		dynamic "<<$debugger_showMode>> $debugger_strToShow"
+	end
+else
+	$debugger_strToShow = func('debugger_implode','
+','$debugger_commands_help')
+	dynamic "<<$debugger_showMode>> $debugger_strToShow"
+end
+
+
+killvar '$debugger_strToShow'
+-- debugger_help ---------------------------------
+

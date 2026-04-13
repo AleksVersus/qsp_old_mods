@@ -1,0 +1,34 @@
+QSP-Game debugger_visual_debug
+
+# debugger_visual_debug
+if debugger_on = 1:
+	$visual_debug[0] = 'Отладка:debugger_visual_process:res/ok.png'
+else
+	$visual_debug[0] = 'Отладка:debugger_visual_process:res/nok.png'
+end	
+$visual_debug[1] = '-:-'
+$visual_debug[2] = 'Очистить:debugger_visual_process'
+$visual_debug[3] = 'Выполнить:debugger_visual_process'
+$visual_debug[4] = 'Показать:debugger_visual_process'
+$visual_debug[5] = '-:-'
+
+if debugger_autoShow = 1: 
+	$visual_debug[6] = 'Авто отображение:debugger_visual_process:res/ok.png'
+else
+	$visual_debug[6] = 'Авто отображение:debugger_visual_process:res/nok.png'
+end
+$visual_debug[7] = 'Режим отображения - <<$debugger_showMode>>:debugger_visual_process'
+
+$visual_debug[8] = '-:-'
+
+$visual_debug[9] = 'Редактировать:debugger_visual_process'
+$visual_debug[10] = 'Удалить:debugger_visual_process'
+$visual_debug[11] = 'Вставить:debugger_visual_process'
+
+$visual_debug[12] = '-:-'
+
+$visual_debug[13] = 'Сохранить:debugger_visual_process'
+$visual_debug[14] = 'Загрузить:debugger_visual_process'
+menu '$visual_debug'
+-- debugger_visual_debug ---------------------------------
+

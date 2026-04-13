@@ -1,0 +1,25 @@
+QSP-Game debugger_edit
+
+# debugger_edit
+! edit 110 строка - замена строки 110 
+
+if $debugger_args[0] <> '':
+	if STRCOMP($debugger_args[0],'\d{1,10}') < 0:
+		if val($debugger_args[0]) < arrsize('$debugger_code'):
+			debugger_index = val($debugger_args[0])
+			killvar '$debugger_args',0
+			$debugger_code[debugger_index] = func('debugger_implode',' ','$debugger_args')
+			if debugger_autoShow = 1:
+				gs 'debugger_show'
+			end
+		else
+			msg 'Строки с таким номером не существует'
+		end
+	else
+		msg 'Для замены строки необходимо ввести ее номер'
+	end
+else
+	msg 'Для замены строки необходимо ввести ее номер'
+end
+-- debugger_edit ---------------------------------
+

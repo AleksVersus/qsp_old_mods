@@ -1,0 +1,26 @@
+QSP-Game debugger_prepare
+
+# debugger_prepare
+!' 
+	создание кода для выполнения из переменной
+!'
+
+if instr($args[0],'[') > 0:
+	dynamic '$debugger_temp = <<$args[0]>>'
+	$result = func('debugger_prepareStr', $debugger_temp)
+	exit
+end
+	
+copyarr '$debugger_arrToPrepare',$args[0]
+debugger_arrLen = arrsize('$debugger_arrToPrepare')
+debugger_i = 0
+:loop
+	$result += '
+' + func('debugger_prepareStr', $debugger_arrToPrepare[debugger_i])
+	debugger_i += 1
+if debugger_i < debugger_arrLen: jump ('loop')
+
+killvar '$debugger_arrToPrepare'
+
+-- debugger_prepare ---------------------------------
+

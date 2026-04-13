@@ -1,0 +1,7 @@
+QSP-Game debugger_str
+
+# debugger_str
+copyarr '$__local_val', $args[0]
+$result = $__local_val
+-- debugger_str ---------------------------------
+

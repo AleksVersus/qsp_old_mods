@@ -1,0 +1,30 @@
+QSP-Game debugger_showCond
+
+# debugger_showCond
+debugger_condCount = arrsize('$debugger_conditions') 
+debugger_condIndex = 0
+:loop
+	if $debugger_conditions[debugger_condIndex] <> '':
+		$debugger_strToShow += '
+' + $debugger_conditions[debugger_condIndex] + ': '
+		killvar '$debugger_tmp_res'
+		dynamic "
+			if <<$debugger_conditions[debugger_condIndex]>>:
+				$debugger_tmp_res = 'true'
+			else
+				$debugger_tmp_res = 'false'
+			end
+		"
+		$debugger_strToShow += $debugger_tmp_res
+	end
+	debugger_condIndex += 1
+if debugger_condIndex < debugger_condCount: jump('loop')
+:go_on
+if debugger_clearOnShow = 1:
+	dynamic "<<$debugger_mods_clear[arrpos('$debugger_mods',$debugger_showMode)]>>"
+end
+dynamic "<<$debugger_showMode>> $debugger_strToShow"
+
+killvar '$debugger_strToShow'
+-- debugger_showCond ---------------------------------
+

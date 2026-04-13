@@ -1,0 +1,16 @@
+QSP-Game debugger_addVar
+
+# debugger_addVar
+if arrsize('$debugger_args') > 0:
+	debugger_i = 0
+	:loop
+		if $debugger_args[debugger_i] <> '':
+			$debugger_variables[] = $debugger_args[debugger_i]
+		end
+	debugger_i += 1
+	if debugger_i < arrsize('$debugger_args'): jump('loop')
+else
+	msg 'Для добавление переменной в список необходимо указать ее имя'
+end
+-- debugger_addVar ---------------------------------
+

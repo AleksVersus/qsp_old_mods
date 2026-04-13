@@ -1,0 +1,43 @@
+QSP-Game debugger_init
+
+# debugger_init
+if debug = 1:
+	debugger_on = 1
+end
+
+$usercom[] = 'debugger_usercom'
+
+if usehtml = 0:
+	usehtml = 1
+end
+
+$debugger_mods[0] = 'msg'
+$debugger_mods[1] = 'p'
+$debugger_mods[2] = '*p'
+$debugger_mods[3] = 'pl'
+$debugger_mods[4] = '*pl'
+$debugger_mods[5] = 'nl'
+$debugger_mods[6] = '*nl'
+
+
+$debugger_mods_clear[0] = ''
+$debugger_mods_clear[1] = 'clr'
+$debugger_mods_clear[2] = '*clr'
+$debugger_mods_clear[3] = 'clr'
+$debugger_mods_clear[4] = '*clr'
+$debugger_mods_clear[5] = ''
+$debugger_mods_clear[5] = ''
+
+debugger_saveOnRun = 1
+debugger_autoShow = 1
+debugger_clearOnRun = 1
+debugger_clearOnShow = 1
+$debugger_showMode = 'pl'
+
+if args[0] = 1:
+	addobj 'Отладчик'
+end
+
+gs 'debugger_commands'
+-- debugger_init ---------------------------------
+

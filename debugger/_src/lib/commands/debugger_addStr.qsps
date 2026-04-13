@@ -1,0 +1,12 @@
+QSP-Game debugger_addStr
+
+# debugger_addStr
+!'
+	$args[0] - line to process
+!'
+$debugger_code[] = $args[0]
+if debugger_autoShow = 1:
+	gs 'debugger_show'
+end
+-- debugger_addStr ---------------------------------
+

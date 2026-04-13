@@ -1,0 +1,30 @@
+QSP-Game debugger_insert
+
+# debugger_insert
+!	insert 115 строка - вставляет после указанной строки
+!	insert строка - вставка строки в начало. 
+
+if $debugger_args[0] <> '':
+	if STRCOMP($debugger_args[0],'\d{1,10}') < 0:
+		if val($debugger_args[0]) < arrsize('$debugger_code'):
+			debugger_insertAfter = val($debugger_args[0])
+			killvar '$debugger_args',0
+			gs 'debugger_arrInsert','$debugger_code',debugger_insertAfter,func('debugger_implode',' ','$debugger_args')
+			if debugger_autoShow = 1:
+				gs 'debugger_show'
+			end
+		else
+			msg 'Строки с таким номером не существует'
+		end
+	else
+		killvar '$debugger_args',0
+		gs 'debugger_shift','$debugger_code',func('debugger_implode',' ','$debugger_args')
+		if debugger_autoShow = 1:
+			gs 'debugger_show'
+		end
+	end
+else
+	msg 'Введите строку для вставки'
+end
+-- debugger_insert ---------------------------------
+

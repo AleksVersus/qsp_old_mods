@@ -1,0 +1,41 @@
+QSP-Game debugger_shift
+
+# debugger_shift
+!' добавляет элемент в начало массива
+	$args[0] - название массима
+	$args[1] - значение
+!'
+
+if instr($args[0],'$') = 1:
+	$debugger_arrType = 'str'
+else
+	$debugger_arrType = 'int'
+end
+
+if $debugger_arrType = 'str':
+	copyarr ('$debugger_arrToSchift',$args[0])
+	debugger_len = arrsize('$debugger_arrToSchift')
+	$debugger_temp[0] = $args[1]
+	debugger_index = 0
+	:loop
+		$debugger_temp[] = $debugger_arrToSchift[debugger_index]
+		debugger_index += 1
+	if debugger_index <= debugger_len:jump('loop')
+	copyarr($args[0],'$debugger_temp')
+	killvar '$debugger_temp'
+	killvar '$debugger_arrToSchift'
+else
+	copyarr ('debugger_arrToSchift',$args[0])
+	debugger_len = arrsize('debugger_arrToSchift')
+	debugger_temp[0] = $args[1]
+	debugger_index = 0
+	:loop_1
+		debugger_temp[] = debugger_arrToSchift[debugger_index]
+		debugger_index += 1
+	if debugger_index <= debugger_len:jump('loop_1')
+	copyarr($args[0],'debugger_temp')
+	killvar 'debugger_temp'
+	killvar 'debugger_arrToSchift'
+end
+-- debugger_shift ---------------------------------
+

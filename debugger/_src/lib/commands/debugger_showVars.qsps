@@ -1,0 +1,22 @@
+QSP-Game debugger_showVars
+
+# debugger_showVars
+debugger_varsCount = arrsize('$debugger_variables') 
+debugger_varsIndex = 0
+:loop
+	if $debugger_variables[debugger_varsIndex] <> '':
+		$debugger_strToShow += '
+' + func('debugger_print',$debugger_variables[debugger_varsIndex])
+	end
+	debugger_varsIndex += 1
+if debugger_varsIndex < debugger_varsCount: jump('loop')
+:go_on
+if debugger_clearOnShow = 1:
+	dynamic "<<$debugger_mods_clear[arrpos('$debugger_mods',$debugger_showMode)]>>"
+end
+
+dynamic "<<$debugger_showMode>> $debugger_strToShow"
+
+killvar '$debugger_strToShow'
+-- debugger_showVars ---------------------------------
+

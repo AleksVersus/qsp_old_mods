@@ -1,0 +1,14 @@
+QSP-Game debugger_loadCommand
+
+# debugger_loadCommand
+if $debugger_args[0] <> '':
+	if func('debugger_checkCommand',$debugger_args[0]) <> 0:
+		copyarr '$debugger_code', '$debugger_customCommands_code_<<$debugger_args[0]>>'
+	else
+		msg 'Такая команда не существет'
+	end
+else
+	msg 'Для загрузки кода команды необходимо указать ее имя'
+end
+-- debugger_loadCommand ---------------------------------
+

@@ -1,0 +1,14 @@
+QSP-Game debugger_delVar
+
+# debugger_delVar
+if arrsize('$debugger_args') > 0:
+	debugger_i = 0
+	:loop
+		KILLVAR '$debugger_variables', arrpos('$debugger_variables',$debugger_args[debugger_i])
+	debugger_i += 1
+	if debugger_i < arrsize('$debugger_args'): jump('loop')
+else
+	msg 'Для удаления переменной из списка необходимо указать ее имя'
+end
+-- debugger_delVar ---------------------------------
+

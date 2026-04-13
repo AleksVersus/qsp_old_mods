@@ -1,0 +1,11 @@
+QSP-Game debugger_runCommand
+
+# debugger_runCommand
+if func('debugger_checkCommand',$debugger_command) = 1:
+	copyarr '$debugger_command_tmp', '$debugger_customCommands_code_<<$debugger_command>>'
+	gs 'debugger_runVar','$debugger_command_tmp'
+else
+	gs 'debugger_' + $debugger_command
+end
+-- debugger_runCommand ---------------------------------
+

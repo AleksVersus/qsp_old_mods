@@ -1,0 +1,16 @@
+QSP-Game debugger_run
+
+# debugger_run
+if $debugger_args[0] <> '':
+	gs 'debugger_runVar', $debugger_args[0]
+else:
+	gs 'debugger_runVar', '$debugger_code'
+	if debugger_saveOnRun = 1:
+		gs 'debugger_save',1
+	end
+	if debugger_clearOnRun = 1:
+		gs 'debugger_clearCode'
+	end
+end
+-- debugger_run ---------------------------------
+

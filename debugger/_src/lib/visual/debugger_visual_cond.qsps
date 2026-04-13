@@ -1,0 +1,10 @@
+QSP-Game debugger_visual_cond
+
+# debugger_visual_cond
+$visual_cond[0] = 'Добавить:debugger_visual_cond_process'
+$visual_cond[1] = 'Удалить:debugger_visual_cond_process'
+$visual_cond[2] = 'Вывести:debugger_visual_cond_process'
+$visual_cond[3] = 'Очистить:debugger_visual_cond_process'
+menu '$visual_cond'
+-- debugger_visual_cond ---------------------------------
+

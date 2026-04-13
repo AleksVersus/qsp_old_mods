@@ -1,0 +1,16 @@
+QSP-Game debugger_visual_vars_process
+
+# debugger_visual_vars_process
+if args[0] = 1:
+	$var = input('Введите название переменной')
+	gs 'debugger_process', 'addVar <<$var>>'
+elseif args[0] = 2:
+	$var = input('Введите название переменной')
+	gs 'debugger_process', 'delVar <<$var>>'
+elseif args[0] = 3:
+	gs 'debugger_process', 'showVars'
+elseif args[0] = 4:
+	gs 'debugger_process', 'clearVars'
+end
+-- debugger_visual_vars_process ---------------------------------
+

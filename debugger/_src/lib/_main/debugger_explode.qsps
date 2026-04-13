@@ -1,0 +1,36 @@
+QSP-Game debugger_explode
+
+# debugger_explode
+!' Разбивает строку на подстроки
+	$args[0] - разделитель
+	$args[1] - строка
+	$args[2] - результирующий массив
+!'
+
+debugger_strLen = len($args[1])
+debugger_sepLen = len($args[0])
+
+debugger_pointer = 0
+
+debugger_position = 1
+
+if debugger_strLen = 0: 
+	$debugger_arrExploded[0] = $args[1]
+	jump('go_on')
+end
+
+:while
+	debugger_position = func('debugger_instr',$args[1],$args[0],debugger_pointer+1)
+	if debugger_position>0:
+		$debugger_arrExploded[] = mid($args[1],debugger_pointer+1,debugger_position-debugger_pointer-1)
+		debugger_pointer = debugger_position + debugger_sepLen - 1
+	else
+		$debugger_arrExploded[] = mid($args[1],debugger_pointer+1,debugger_strLen-debugger_pointer)
+		jump('go_on')
+	end
+if debugger_pointer<debugger_strLen: jump('while')
+:go_on
+copyarr $args[2], '$debugger_arrExploded'
+killvar '$debugger_arrExploded'
+-- debugger_explode ---------------------------------
+

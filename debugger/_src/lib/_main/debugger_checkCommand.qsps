@@ -1,0 +1,10 @@
+QSP-Game debugger_checkCommand
+
+# debugger_checkCommand
+if arrcomp('$debugger_customCommands','(?i:<<$args[0]>>)') >= 0:
+	result = 1
+else
+	result = 0
+end
+-- debugger_checkCommand ---------------------------------
+

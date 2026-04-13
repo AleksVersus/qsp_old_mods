@@ -1,0 +1,48 @@
+QSP-Game debugger_visual_process
+
+# debugger_visual_process
+if args[0] = 1:
+	if debugger_on = 1:
+		gs 'debugger_process', 'debugger 0'
+	else
+		gs 'debugger_process', 'debugger 1'
+	end
+elseif args[0] = 3:
+	gs 'debugger_process', 'clearCode'
+elseif args[0] = 4:	
+	gs 'debugger_process', 'run'
+elseif args[0] = 5:	
+	gs 'debugger_process', 'show'
+elseif args[0] = 7:
+	if debugger_autoShow = 1: 
+		gs 'debugger_process', 'autoShow 0'
+	else:
+		gs 'debugger_process', 'autoShow 1'
+	end
+elseif args[0] = 8:
+	$newMode = input('Введите новый режим отображение')
+	gs 'debugger_process', 'showMode <<$newMode>>'
+elseif args[0] = 10:
+	$line = input('Введите номер строки')
+	$code = input('Введите строку кода')
+	gs 'debugger_process', 'edit <<$line>> ' + $code
+elseif args[0] = 11:
+	$line = input('Введите номер строки')
+	gs 'debugger_process', 'delete <<$line>> '
+elseif args[0] = 12:
+	$line = input('Введите номер строки после которой будет вставлен код(Оставьте пустым для вставки в первую строку)')
+	$code = input('Введите строку кода')
+	if $line <> '':
+		gs 'debugger_process', 'insert <<$line>> ' + $code
+	else
+		gs 'debugger_process', 'insert ' + $code
+	end
+elseif args[0] = 14:
+	$var = input('Введите название переменной (Оставьте пустым для автосохранения)')
+	gs 'debugger_process', 'save <<$var>>'
+elseif args[0] = 15:
+	$var = input('Введите название переменной (Оставьте пустым для автосохранения)')
+	gs 'debugger_process', 'load <<$var>>'
+end
+-- debugger_visual_process ---------------------------------
+

@@ -1,0 +1,6 @@
+QSP-Game debugger_clearVars
+
+# debugger_clearVars
+killvar '$debugger_variables'
+-- debugger_clearVars ---------------------------------
+

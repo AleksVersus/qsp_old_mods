@@ -1,0 +1,10 @@
+QSP-Game debugger_visual_commands
+
+# debugger_visual_commands
+$visual_command[0] = 'Создать:debugger_visual_command_process'
+$visual_command[1] = 'Загрузить:debugger_visual_command_process'
+$visual_command[2] = 'Обновить:debugger_visual_command_process'
+$visual_command[3] = 'Удалить:debugger_visual_command_process'
+menu '$visual_command'
+-- debugger_visual_commands ---------------------------------
+

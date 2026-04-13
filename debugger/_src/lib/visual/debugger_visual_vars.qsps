@@ -1,0 +1,10 @@
+QSP-Game debugger_visual_vars
+
+# debugger_visual_vars
+$visual_vars[0] = 'Добавить:debugger_visual_vars_process'
+$visual_vars[1] = 'Удалить:debugger_visual_vars_process'
+$visual_vars[2] = 'Вывести:debugger_visual_vars_process'
+$visual_vars[3] = 'Очистить:debugger_visual_vars_process'
+menu '$visual_vars'
+-- debugger_visual_vars ---------------------------------
+

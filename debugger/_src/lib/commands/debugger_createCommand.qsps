@@ -1,0 +1,20 @@
+QSP-Game debugger_createCommand
+
+# debugger_createCommand
+if $debugger_args[0] <> '':
+	if func('debugger_checkCommand',$debugger_args[0]) = 0:
+		$debugger_customCommands[] = $debugger_args[0]
+		msg '"<<$debugger_args[0]>>"'
+		if $debugger_args[1] <> '':
+			copyarr '$debugger_customCommands_code_<<$debugger_args[0]>>', $debugger_args[1]
+		else
+			copyarr '$debugger_customCommands_code_<<$debugger_args[0]>>', '$debugger_code'
+		end
+	else
+		msg 'Такая команда уже существет'
+	end
+else
+	msg 'Для создания команды необходимо указать ее имя'
+end
+-- debugger_createCommand ---------------------------------
+

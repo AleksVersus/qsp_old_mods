@@ -1,0 +1,6 @@
+QSP-Game debugger_clearCode
+
+# debugger_clearCode
+killvar '$debugger_code'
+-- debugger_clearCode ---------------------------------
+

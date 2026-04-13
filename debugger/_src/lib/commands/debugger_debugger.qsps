@@ -1,0 +1,18 @@
+QSP-Game debugger_debugger
+
+# debugger_debugger
+if $debugger_args[0] <> '':
+	if STRCOMP($debugger_args[0],'(0|1)') < 0:
+		if val($debugger_args[0]) = 0:
+			debugger_on = 0
+		else
+			debugger_on = 1		
+		end
+	else
+		msg 'Для включения/отключения отладчика введите 0 или 1'
+	end
+else
+	msg 'Для включения/отключения отладчика введите 0 или 1'
+end
+-- debugger_debugger ---------------------------------
+

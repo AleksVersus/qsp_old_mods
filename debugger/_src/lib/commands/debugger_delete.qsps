@@ -1,0 +1,41 @@
+QSP-Game debugger_delete
+
+# debugger_delete
+! delete 110 - удалить строку 110
+
+if $debugger_args[0] <> '':
+	if STRCOMP($debugger_args[0],'\d{1,10}-\d{1,10}') < 0:
+		debugger_start = val(strfind($debugger_args[0],'(\d{1,10})-(\d{1,10})',1))
+		debugger_end = val(strfind($debugger_args[0],'(\d{1,10})-(\d{1,10})',2))
+		debugger_countDel = debugger_end - debugger_start + 1
+		debugger_loop = 1
+		if debugger_start < arrsize('$debugger_code') and debugger_end < arrsize('$debugger_code'):
+			:loop
+				killvar '$debugger_code',debugger_start
+				debugger_loop += 1
+			if 	debugger_loop <= debugger_countDel: jump('loop')
+			if debugger_autoShow = 1:
+				gs 'debugger_show'
+			end
+		else
+			msg 'Неправильно задан диапазон удаления'
+		end
+	else
+		if STRCOMP($debugger_args[0],'\d{1,10}') < 0:
+			if val($debugger_args[0]) < arrsize('$debugger_code'):
+				killvar '$debugger_code',val($debugger_args[0])
+				if debugger_autoShow = 1:
+					gs 'debugger_show'
+				end
+			else
+				msg 'Строки с таким номером не существует'
+			end
+		else
+			msg 'Для удаления строки необходимо ввести ее номер'
+		end
+	end
+else
+	msg 'Для удаления строки необходимо ввести ее номер'
+end
+-- debugger_delete ---------------------------------
+

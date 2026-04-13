@@ -1,0 +1,18 @@
+QSP-Game debugger_updateCommand
+
+# debugger_updateCommand
+if $debugger_args[0] <> '':
+	if func('debugger_checkCommand',$debugger_args[0]) <> 0:
+		if $debugger_args[1] <> '':
+			copyarr '$debugger_customCommands_code_<<$debugger_args[0]>>', $debugger_args[1]
+		else
+			copyarr '$debugger_customCommands_code_<<$debugger_args[0]>>', '$debugger_code'
+		end
+	else
+		msg 'Такая команда не существет'
+	end
+else
+	msg 'Для обновления команды необходимо указать ее имя'
+end
+-- debugger_updateCommand ---------------------------------
+

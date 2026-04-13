@@ -1,0 +1,20 @@
+QSP-Game debugger_visual_command_process
+
+# debugger_visual_command_process
+if args[0] = 1:
+	$comm = input('Введите название команды')
+	$var = input('Введите название переменной (оставьте пустым для создания из введенного кода)')
+	gs 'debugger_process', 'createCommand <<$comm>> <<$var>>'
+elseif args[0] = 2:
+	$comm = input('Введите название команды')
+	gs 'debugger_process', 'loadCommand <<$comm>>'
+elseif args[0] = 3:
+	$comm = input('Введите название команды')
+	$var = input('Введите название переменной (оставьте пустым для создания из введенного кода)')
+	gs 'debugger_process', 'updateCommand <<$comm>> <<$var>>'
+elseif args[0] = 4:
+	$comm = input('Введите название команды')
+	gs 'debugger_process', 'deleteCommand <<$comm>>'
+end
+-- debugger_visual_command_process ---------------------------------
+

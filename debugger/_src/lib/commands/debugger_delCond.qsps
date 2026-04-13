@@ -1,0 +1,10 @@
+QSP-Game debugger_delCond
+
+# debugger_delCond
+if arrsize('$debugger_args') > 0:
+	KILLVAR '$debugger_conditions', arrpos('$debugger_conditions',func('debugger_implode', ' ', '$debugger_args'))
+else
+	msg 'Укажите условие для удаления'
+end
+-- debugger_delCond ---------------------------------
+

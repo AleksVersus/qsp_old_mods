@@ -1,0 +1,6 @@
+QSP-Game debugger_clearCond
+
+# debugger_clearCond
+killvar '$debugger_conditions'
+-- debugger_clearCond ---------------------------------
+

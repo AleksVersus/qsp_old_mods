@@ -1,0 +1,14 @@
+QSP-Game debugger_instr
+
+# debugger_instr
+!'
+	wrapper for instr
+!'
+
+if qspver() > '5.7.0':
+	result = instr($args[0],$args[1], args[2])
+else
+	result = instr(args[2], $args[0],$args[1])
+end
+-- debugger_instr ---------------------------------
+

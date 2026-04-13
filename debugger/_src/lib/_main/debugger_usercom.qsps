@@ -1,0 +1,9 @@
+QSP-Game debugger_usercom
+
+# debugger_usercom
+if $USER_TEXT() = '': 
+	exit
+end
+gs 'debugger_process', $USER_TEXT
+-- debugger_usercom ---------------------------------
+

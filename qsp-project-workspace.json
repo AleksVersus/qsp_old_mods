@@ -105,6 +105,510 @@
                     2618
                 ]
             ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_addStr.qsps": [
+            [
+                "debugger_addStr",
+                [
+                    28,
+                    43
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_addVar.qsps": [
+            [
+                "debugger_addVar",
+                [
+                    28,
+                    43
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_arrInsert.qsps": [
+            [
+                "debugger_arrInsert",
+                [
+                    31,
+                    49
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_autoShow.qsps": [
+            [
+                "debugger_autoShow",
+                [
+                    30,
+                    47
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_changeLog.qsps": [
+            [
+                "debugger_changeLog",
+                [
+                    31,
+                    49
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_checkCommand.qsps": [
+            [
+                "debugger_checkCommand",
+                [
+                    34,
+                    55
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_clearCode.qsps": [
+            [
+                "debugger_clearCode",
+                [
+                    31,
+                    49
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_clearCond.qsps": [
+            [
+                "debugger_clearCond",
+                [
+                    31,
+                    49
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_clearVars.qsps": [
+            [
+                "debugger_clearVars",
+                [
+                    31,
+                    49
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_commands.qsps": [
+            [
+                "debugger_commands",
+                [
+                    30,
+                    47
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_createCommand.qsps": [
+            [
+                "debugger_createCommand",
+                [
+                    35,
+                    57
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_delCond.qsps": [
+            [
+                "debugger_delCond",
+                [
+                    29,
+                    45
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_debugger.qsps": [
+            [
+                "debugger_debugger",
+                [
+                    30,
+                    47
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_delete.qsps": [
+            [
+                "debugger_delete",
+                [
+                    28,
+                    43
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_deleteCommand.qsps": [
+            [
+                "debugger_deleteCommand",
+                [
+                    35,
+                    57
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_delVar.qsps": [
+            [
+                "debugger_delVar",
+                [
+                    28,
+                    43
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_edit.qsps": [
+            [
+                "debugger_edit",
+                [
+                    26,
+                    39
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_explode.qsps": [
+            [
+                "debugger_explode",
+                [
+                    29,
+                    45
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_help.qsps": [
+            [
+                "debugger_help",
+                [
+                    26,
+                    39
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_implode.qsps": [
+            [
+                "debugger_implode",
+                [
+                    29,
+                    45
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_init.qsps": [
+            [
+                "debugger_init",
+                [
+                    26,
+                    39
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_insert.qsps": [
+            [
+                "debugger_insert",
+                [
+                    28,
+                    43
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_instr.qsps": [
+            [
+                "debugger_instr",
+                [
+                    27,
+                    41
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_load.qsps": [
+            [
+                "debugger_load",
+                [
+                    26,
+                    39
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_loadCommand.qsps": [
+            [
+                "debugger_loadCommand",
+                [
+                    33,
+                    53
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_onobjsel.qsps": [
+            [
+                "debugger_onobjsel",
+                [
+                    30,
+                    47
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_parse.qsps": [
+            [
+                "debugger_parse",
+                [
+                    27,
+                    41
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_prepare.qsps": [
+            [
+                "debugger_prepare",
+                [
+                    29,
+                    45
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_prepareStr.qsps": [
+            [
+                "debugger_prepareStr",
+                [
+                    32,
+                    51
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_print.qsps": [
+            [
+                "debugger_print",
+                [
+                    27,
+                    41
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_process.qsps": [
+            [
+                "debugger_process",
+                [
+                    29,
+                    45
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_run.qsps": [
+            [
+                "debugger_run",
+                [
+                    25,
+                    37
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_runCommand.qsps": [
+            [
+                "debugger_runCommand",
+                [
+                    32,
+                    51
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_runVar.qsps": [
+            [
+                "debugger_runVar",
+                [
+                    28,
+                    43
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_save.qsps": [
+            [
+                "debugger_save",
+                [
+                    26,
+                    39
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_shift.qsps": [
+            [
+                "debugger_shift",
+                [
+                    27,
+                    41
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_show.qsps": [
+            [
+                "debugger_show",
+                [
+                    26,
+                    39
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_showCond.qsps": [
+            [
+                "debugger_showCond",
+                [
+                    30,
+                    47
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_showMode.qsps": [
+            [
+                "debugger_showMode",
+                [
+                    30,
+                    47
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_showVars.qsps": [
+            [
+                "debugger_showVars",
+                [
+                    30,
+                    47
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_str.qsps": [
+            [
+                "debugger_str",
+                [
+                    25,
+                    37
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_updateCommand.qsps": [
+            [
+                "debugger_updateCommand",
+                [
+                    35,
+                    57
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_usercom.qsps": [
+            [
+                "debugger_usercom",
+                [
+                    29,
+                    45
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_val.qsps": [
+            [
+                "debugger_val",
+                [
+                    25,
+                    37
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_visual_command_process.qsps": [
+            [
+                "debugger_visual_command_process",
+                [
+                    44,
+                    75
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_visual_commands.qsps": [
+            [
+                "debugger_visual_commands",
+                [
+                    37,
+                    61
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_visual_cond.qsps": [
+            [
+                "debugger_visual_cond",
+                [
+                    33,
+                    53
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_visual_cond_process.qsps": [
+            [
+                "debugger_visual_cond_process",
+                [
+                    41,
+                    69
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_visual_debug.qsps": [
+            [
+                "debugger_visual_debug",
+                [
+                    34,
+                    55
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_visual_help.qsps": [
+            [
+                "debugger_visual_help",
+                [
+                    33,
+                    53
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_visual_process.qsps": [
+            [
+                "debugger_visual_process",
+                [
+                    36,
+                    59
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_visual_vars.qsps": [
+            [
+                "debugger_visual_vars",
+                [
+                    33,
+                    53
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_visual_vars_process.qsps": [
+            [
+                "debugger_visual_vars_process",
+                [
+                    41,
+                    69
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_addCond.qsps": [
+            [
+                "debugger_addCond",
+                [
+                    29,
+                    45
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\___visual___.qsps": [
+            [
+                "___visual___",
+                [
+                    25,
+                    37
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\__Commands__.qsps": [
+            [
+                "__Commands__",
+                [
+                    25,
+                    37
+                ]
+            ]
         ]
     },
     "files_paths": {

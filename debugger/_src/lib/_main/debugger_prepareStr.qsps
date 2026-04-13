@@ -1,0 +1,39 @@
+QSP-Game debugger_prepareStr
+
+# debugger_prepareStr
+!'
+	$args[0] - string
+	args[1] - not split to line
+!'
+$args[0] = trim($args[0])
+if args[1] = 0:
+	gs 'debugger_explode', '
+', $args[0], '$debugger_stringsToPrepare'
+	debugger_dps_len = len('$debugger_stringsToPrepare')
+	debugger_dps_index = 0
+	:loop
+		if trim($debugger_stringsToPrepare[debugger_dps_index]) <> '':
+			$result = func('debugger_prepareStr', trim($debugger_stringsToPrepare[debugger_dps_index]),1)
+		end
+		debugger_dps_index  += 1
+	if debugger_dps_index  < debugger_dps_len: jump('loop')
+else
+	if strpos($args[0], '^>') = 1:
+		$debugger_lineToConvert = mid($args[0],2)
+		$result = 'gs "debugger_process", "<<$debugger_lineToConvert>>"'
+	else
+	!'
+		DISABLESUBEX = 1
+		
+		$result = replace($args[0], '>>', '>>')
+		$result = replace($result, '<<', '<<')
+		
+		DISABLESUBEX = 0
+		msg $result
+	!'
+		$__local_tmp_result = $args[0]
+		$result = dyneval('$result = "<<$__local_tmp_result>>"')
+	end
+end
+-- debugger_prepareStr ---------------------------------
+

@@ -1,0 +1,14 @@
+QSP-Game debugger_load
+
+# debugger_load
+if $debugger_args[0] <> '':
+	!if instr($debugger_args[0],'$') = 1:
+		copyarr '$debugger_code',$debugger_args[0]
+	!else
+	!	copyarr '$debugger_code','$<<$debugger_args[0]>>'
+	!end
+else
+	copyarr '$debugger_code','$debugger_autosave'
+end
+-- debugger_load ---------------------------------
+

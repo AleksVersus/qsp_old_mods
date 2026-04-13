@@ -1,0 +1,16 @@
+QSP-Game debugger_visual_cond_process
+
+# debugger_visual_cond_process
+if args[0] = 1:
+	$cond = input('Введите условие')
+	gs 'debugger_process', 'addCond <<$var>>'
+elseif args[0] = 2:
+	$cond = input('Введите условие')
+	gs 'debugger_process', 'delCond <<$var>>'
+elseif args[0] = 3:
+	gs 'debugger_process', 'showCond'
+elseif args[0] = 4:
+	gs 'debugger_process', 'clearCond'
+end
+-- debugger_visual_cond_process ---------------------------------
+

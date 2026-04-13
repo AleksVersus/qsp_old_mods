@@ -1,0 +1,15 @@
+QSP-Game debugger_deleteCommand
+
+# debugger_deleteCommand
+if $debugger_args[0] <> '':
+	if func('debugger_checkCommand',$debugger_args[0]) <> 0:
+		killvar '$debugger_customCommands', arrpos('$debugger_customCommands', $debugger_args[0])
+		killvar '$debugger_customCommands_code_<<$debugger_args[0]>>'
+	else
+		msg 'Такая команда не существет'
+	end
+else
+	msg 'Для удаления команды необходимо указать ее имя'
+end
+-- debugger_deleteCommand ---------------------------------
+

@@ -1,0 +1,22 @@
+QSP-Game debugger_implode
+
+# debugger_implode
+!' Объединяет элементы массива в строку
+	$args[0] - разделитель
+	$args[1] - название массива
+!'
+
+copyarr '$debugger_arrToImplode',$args[1]
+debugger_arrLen = arrsize('$debugger_arrToImplode')
+debugger_i = 0
+:loop
+	$result = $result + $debugger_arrToImplode[debugger_i]
+	debugger_i += 1
+if debugger_i < debugger_arrLen: 
+	$result = $result + $args[0]
+	jump ('loop')
+end
+
+killvar '$debugger_arrToImplode'
+-- debugger_implode ---------------------------------
+

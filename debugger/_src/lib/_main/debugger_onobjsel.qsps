@@ -1,0 +1,9 @@
+QSP-Game debugger_onobjsel
+
+# debugger_onobjsel
+if $selobj = 'Отладчик':
+	menu '$visual_main'
+end
+unsel
+-- debugger_onobjsel ---------------------------------
+

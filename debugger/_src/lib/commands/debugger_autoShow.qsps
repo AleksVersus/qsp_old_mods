@@ -1,0 +1,26 @@
+QSP-Game debugger_autoShow
+
+# debugger_autoShow
+if $debugger_args[0] <> '':
+	if STRCOMP($debugger_args[0],'(0|1)') < 0:
+		if val($debugger_args[0]) = 0:
+			debugger_autoShow = 0
+		else
+			debugger_autoShow = 1
+		end
+	else
+		msg 'Для включения/отключения автопоказа введите 0 или 1'
+	end
+else
+	msg 'Для включения/отключения автопоказа введите 0 или 1'
+end
+
+if $debugger_args[1] <> '':
+	if arrpos('$debugger_mods',$debugger_args[1])>=0:
+		$debugger_showMode = $debugger_args[]
+	else
+		msg 'Поддерживаемые режимы - ' + func("debugger_implode",", ","$debugger_mods")
+	end
+end
+-- debugger_autoShow ---------------------------------
+

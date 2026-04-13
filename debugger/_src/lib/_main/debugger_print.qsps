@@ -1,0 +1,63 @@
+QSP-Game debugger_print
+
+# debugger_print
+!' выводит масив на экран
+	$args[0] - имя массива
+	args[1] - 1 если необходимо выводить только индекс
+!'
+
+if instr($args[0],'$') = 1:
+	$debugger_print = 'str'
+else
+	$debugger_print = 'int'
+end
+
+if $debugger_print = 'str':
+	if instr($args[0],'[') > 0:
+		dynamic '$debugger_temp = <<$args[0]>>'
+		$result = '<<$args[0]>>: <<$debugger_temp>>'
+		exit
+	end
+	
+	copyarr '$debugger_arrToPrint',$args[0]
+	debugger_arrLen = arrsize('$debugger_arrToPrint')
+	debugger_i = 0
+	:loop
+		if args[1] = 1:
+			$result += '
+<<debugger_i>>: <<$debugger_arrToPrint[debugger_i]>>'
+		else
+			$result += '
+<<$args>>[<<debugger_i>>]: <<$debugger_arrToPrint[debugger_i]>>'
+		end
+		debugger_i += 1
+	if debugger_i < debugger_arrLen: jump ('loop')
+
+	killvar '$debugger_arrToPrint'
+else
+	if instr($args[0],'[') > 0:
+		dynamic 'debugger_temp = <<$args[0]>>'
+		$result = '<<$args[0]>>: <<debugger_temp>>'
+		exit
+	end
+	copyarr 'debugger_arrToPrint',$args[0]
+	debugger_arrLen = arrsize('debugger_arrToPrint')
+	debugger_i = 0
+	:loop_1
+		if args[1] = 1:
+			$result += '
+<<debugger_i>>: <<debugger_arrToPrint[debugger_i]>>'
+		else
+			$result += '
+<<$args>>[<<debugger_i>>]: <<debugger_arrToPrint[debugger_i]>>'
+		end
+		debugger_i += 1
+	if debugger_i < debugger_arrLen: jump ('loop_1')
+
+	killvar 'debugger_arrToPrint'
+end
+!$result = replace($result, '<', '&lt;')
+!$result = replace($result, '>', '&gt;')
+!$result = replace($result, '&', '&amp;')
+-- debugger_print ---------------------------------
+
