@@ -1,16 +1,25 @@
 {
     "project": [
         {
-            "module": "_output_game\\simple_time.qsp",
+            "module": "_output_game\\simple_time_1.qsp",
             "folders": [
                 {
-                    "path": "_src\\"
+                    "path": "_src\\1\\"
                 }
             ],
-            "start_qsploc_file": "_src\\1.qsps"
+            "start_qsploc_file": "_src\\1\\1.qsps"
+        },
+        {
+            "module": "_output_game\\simple_time_2.qsp",
+            "folders": [
+                {
+                    "path": "_src\\2\\"
+                }
+            ],
+            "start_qsploc_file": "_src\\2\\1.qsps"
         }
     ],
-    "start": "_output_game\\simple_time.qsp",
+    "start": "_output_game\\simple_time_2.qsp",
     "player": "..\\..\\..\\QSP 590 QG 410b\\qspgui.exe",
     "preprocessor": "Off"
 }
