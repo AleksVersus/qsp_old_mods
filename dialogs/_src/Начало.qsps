@@ -1,0 +1,31 @@
+QSP-Game Начало
+
+# Начало
+! BASE
+ACT 'Запустить пример':
+	gt 'бар'
+END
+ACT 'Посмотреть код':
+	USEHTML = 0
+	gt 'код'
+END
+! END BASE
+! включаем поддержку html
+USEHTML=1
+SHOWOBJS 0
+SHOWSTAT 0
+SHOWINPUT 0
+*nl
+*nl
+*nl
+*nl
+'<center><h3>Пример построения диалогов</h3></center>'
+*nl
+*nl
+*nl
+*nl
+*nl
+'<center>Подготовил пример — WladySpb</center>'
+'<center>Чистка текста —  y4ndexx</center>'
+-- Начало ---------------------------------
+

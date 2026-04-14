@@ -1096,7 +1096,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\1.qsps": [
             [
                 "Начало",
                 [
@@ -1105,7 +1105,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\комната_крвоать.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\комната_крвоать.qsps": [
             [
                 "комната_кровать",
                 [
@@ -1114,7 +1114,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\комната.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\комната.qsps": [
             [
                 "комната",
                 [
@@ -1123,7 +1123,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\зеркало.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\зеркало.qsps": [
             [
                 "комната_зеркало",
                 [
@@ -1132,7 +1132,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\улица.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\улица.qsps": [
             [
                 "улица",
                 [
@@ -1141,7 +1141,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\лес.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\лес.qsps": [
             [
                 "лес",
                 [
@@ -1150,7 +1150,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\город.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\город.qsps": [
             [
                 "город",
                 [
@@ -1298,15 +1298,15 @@
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\_main\\debugger_val.qsps": "74bfb9bf8d425464fcb46f564f496168",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\visual\\debugger_visual_process.qsps": "00bc2ede9ff11531be023c585b018086",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\commands\\debugger_show.qsps": "201fd5c8f1193e323ff396dd52b0b926",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1.qsps": "41244de90a757a70f87dc0aa86a92a99",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\комната_крвоать.qsps": "64fff50d38adc599887cbea45b4ab22e",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\комната.qsps": "c23746da7b0661e4cb882cb343295098",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\зеркало.qsps": "4046d26166abd280edb3db1a216d0936",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\улица.qsps": "aa5a7375a8f2c5a63f687554722197e1",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\лес.qsps": "588e615a0ee21897b963165e3d5348c6",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\город.qsps": "c8f3026da113d21ef1eb3d1bd7e4525b",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\1.qsps": "41244de90a757a70f87dc0aa86a92a99",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\комната_крвоать.qsps": "64fff50d38adc599887cbea45b4ab22e",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\комната.qsps": "c23746da7b0661e4cb882cb343295098",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\зеркало.qsps": "4046d26166abd280edb3db1a216d0936",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\улица.qsps": "aa5a7375a8f2c5a63f687554722197e1",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\лес.qsps": "588e615a0ee21897b963165e3d5348c6",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\город.qsps": "c8f3026da113d21ef1eb3d1bd7e4525b",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\1.qsps": "f9609d105d31ac9b9b59e851c71e1eb3",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\календарь.qsps": "44c701990d59c0c99b1a61b7cbaef2d3",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\календарь.qsps": "0c6f142511c13e9f248101cdf5aebd3b",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\город.qsps": "c63092394bf5b5210acda72e7d2f6ae1",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\улица.qsps": "a54a927b331a81aad3fceb0c78859034",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\зеркало.qsps": "8837bf574f618ecee4e959f440064203",
