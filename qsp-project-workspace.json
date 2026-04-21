@@ -9,103 +9,6 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\00_help.qsps": [
-            [
-                "ia_help",
-                [
-                    20,
-                    27
-                ]
-            ]
-        ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_del_obj.qsps": [
-            [
-                "ia_del_obj",
-                [
-                    164,
-                    174
-                ]
-            ]
-        ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_obj_count.qsps": [
-            [
-                "ia_obj_count",
-                [
-                    178,
-                    190
-                ]
-            ]
-        ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_obj_type.qsps": [
-            [
-                "ia_obj_type",
-                [
-                    190,
-                    201
-                ]
-            ]
-        ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_add_obj.qsps": [
-            [
-                "ia_internal_add_obj",
-                [
-                    32,
-                    51
-                ]
-            ]
-        ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_del_obj.qsps": [
-            [
-                "ia_internal_del_obj",
-                [
-                    32,
-                    51
-                ]
-            ]
-        ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_getname.qsps": [
-            [
-                "ia_obj_get_title",
-                [
-                    54,
-                    70
-                ]
-            ]
-        ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_getpos.qsps": [
-            [
-                "ia_sys_getpos",
-                [
-                    51,
-                    64
-                ]
-            ]
-        ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_add_obj.qsps": [
-            [
-                "ia_add_obj",
-                [
-                    260,
-                    270
-                ]
-            ]
-        ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\invadv_test\\start.qsps": [
-            [
-                "start",
-                [
-                    18,
-                    23
-                ]
-            ],
-            [
-                "uc",
-                [
-                    2616,
-                    2618
-                ]
-            ]
-        ],
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_disdocs\\lib\\debugger\\debugger_addStr.qsps": [
             [
                 "debugger_addStr",
@@ -1069,7 +972,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\1.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\1\\1.qsps": [
             [
                 "Начало",
                 [
@@ -1078,7 +981,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\комната_крвоать.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\1\\комната_крвоать.qsps": [
             [
                 "комната_кровать",
                 [
@@ -1087,7 +990,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\комната.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\1\\комната.qsps": [
             [
                 "комната",
                 [
@@ -1096,7 +999,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\зеркало.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\1\\зеркало.qsps": [
             [
                 "комната_зеркало",
                 [
@@ -1105,7 +1008,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\улица.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\1\\улица.qsps": [
             [
                 "улица",
                 [
@@ -1114,7 +1017,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\лес.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\1\\лес.qsps": [
             [
                 "лес",
                 [
@@ -1123,7 +1026,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\город.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\1\\город.qsps": [
             [
                 "город",
                 [
@@ -1132,7 +1035,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\календарь.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\календарь.qsps": [
             [
                 "календарь",
                 [
@@ -1141,7 +1044,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\1.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\1.qsps": [
             [
                 "Начало",
                 [
@@ -1150,7 +1053,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\город.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\город.qsps": [
             [
                 "город",
                 [
@@ -1159,7 +1062,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\зеркало.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\зеркало.qsps": [
             [
                 "комната_зеркало",
                 [
@@ -1168,7 +1071,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\комната.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\комната.qsps": [
             [
                 "комната",
                 [
@@ -1177,7 +1080,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\комната_крвоать.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\комната_крвоать.qsps": [
             [
                 "комната_кровать",
                 [
@@ -1186,7 +1089,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\улица.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\улица.qsps": [
             [
                 "улица",
                 [
@@ -1195,7 +1098,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\лес.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\лес.qsps": [
             [
                 "лес",
                 [
@@ -1204,7 +1107,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\бар.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\бар.qsps": [
             [
                 "бар",
                 [
@@ -1213,7 +1116,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\диалог.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\диалог.qsps": [
             [
                 "диалог",
                 [
@@ -1222,7 +1125,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\Диалог_А.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\Диалог_А.qsps": [
             [
                 "Диалог_А",
                 [
@@ -1231,7 +1134,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\код_диалог_а.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\код_диалог_а.qsps": [
             [
                 "код_диалог_а",
                 [
@@ -1240,7 +1143,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\Начало.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\Начало.qsps": [
             [
                 "Начало",
                 [
@@ -1249,7 +1152,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\код_диалог.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\код_диалог.qsps": [
             [
                 "код_диалог",
                 [
@@ -1258,7 +1161,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\код_бар.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\код_бар.qsps": [
             [
                 "код_бар",
                 [
@@ -1267,7 +1170,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\код.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\код.qsps": [
             [
                 "код",
                 [
@@ -1302,20 +1205,90 @@
                     49
                 ]
             ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_obj_count.qsps": [
+            [
+                "ia_obj_count",
+                [
+                    178,
+                    190
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_obj_type.qsps": [
+            [
+                "ia_obj_type",
+                [
+                    190,
+                    201
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_getpos.qsps": [
+            [
+                "ia_sys_getpos",
+                [
+                    77,
+                    90
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_gettitle.qsps": [
+            [
+                "ia_obj_get_title",
+                [
+                    54,
+                    70
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\00_help.qsps": [
+            [
+                "ia_help",
+                [
+                    20,
+                    27
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_add_obj.qsps": [
+            [
+                "ia_add_obj",
+                [
+                    260,
+                    270
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_del_obj.qsps": [
+            [
+                "ia_del_obj",
+                [
+                    164,
+                    174
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\invadv_test\\start.qsps": [
+            [
+                "start",
+                [
+                    18,
+                    23
+                ]
+            ],
+            [
+                "my_ia_del_all",
+                [
+                    3334,
+                    3347
+                ]
+            ]
         ]
     },
     "files_paths": {
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\invadv_test\\start.qsps": "acb52e1aafd84279b491a66099bc60cf",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_add_obj.qsps": "b2dc1d964e33a2bf0a498b6f03d87f64",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_del_obj.qsps": "befa65d3b30789544dc45d05a8596d8b",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_obj_count.qsps": "0338d098a6eae0b64a80ba20e0fe0024",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_obj_type.qsps": "952866bf296617642e7eae3e63bfca1c",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_getname.qsps": "8c1853623fd5a187a2138541be0effc8",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_getpos.qsps": "31538acb00bb388222740c9d263c1b0c",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\00_help.qsps": "b7aab2594aca97405ee8b9425ac76630",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_add_obj.qsps": "4e6c4a44c28c2f9371ac57ea5b318a5d",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_gettitle.qsps": "8c1853623fd5a187a2138541be0effc8",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\invadv_test\\status.qsps": "ed9f969c510f5f273dc31b98a630ddc1",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_del_obj.qsps": "9a926efd9ea6c0c79af6413696900e86",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\commands\\debugger_addStr.qsps": "cdb0353d33a23db7215ec1e5de5a521c",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\_main\\debugger_prepareStr.qsps": "bcf9d660e1b3a4e79dadfec5cd4c9b9a",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\_main\\debugger_usercom.qsps": "db2ea390645137a2553bdf873acd2355",
@@ -1370,28 +1343,35 @@
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\_main\\debugger_val.qsps": "74bfb9bf8d425464fcb46f564f496168",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\visual\\debugger_visual_process.qsps": "00bc2ede9ff11531be023c585b018086",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\commands\\debugger_show.qsps": "201fd5c8f1193e323ff396dd52b0b926",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\1.qsps": "41244de90a757a70f87dc0aa86a92a99",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\комната_крвоать.qsps": "64fff50d38adc599887cbea45b4ab22e",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\комната.qsps": "c23746da7b0661e4cb882cb343295098",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\зеркало.qsps": "4046d26166abd280edb3db1a216d0936",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\улица.qsps": "aa5a7375a8f2c5a63f687554722197e1",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\лес.qsps": "588e615a0ee21897b963165e3d5348c6",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\1\\город.qsps": "c8f3026da113d21ef1eb3d1bd7e4525b",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\1.qsps": "f9609d105d31ac9b9b59e851c71e1eb3",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\календарь.qsps": "0c6f142511c13e9f248101cdf5aebd3b",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\город.qsps": "c63092394bf5b5210acda72e7d2f6ae1",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\улица.qsps": "a54a927b331a81aad3fceb0c78859034",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\зеркало.qsps": "8837bf574f618ecee4e959f440064203",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\комната.qsps": "acfd9cfad676bfb603a0956e754dae8d",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\комната_крвоать.qsps": "2d4fc8563f5b3e781e6314856c5ff199",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\simple_time\\_src\\2\\лес.qsps": "5f93cc81f0eab9badf2c19a0acc84999",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\Начало.qsps": "9deb73c36501d71d70dcd5ae2a91e0aa",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\код_диалог_а.qsps": "0a950b7f19495a1e5c6f669d1150c984",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\код_диалог.qsps": "bd3ed5ed258f1921dd90896d76524c37",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\код.qsps": "61cdcc319fb73b7ad11c6566ec640fb2",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\код_бар.qsps": "0b21dee4d77e3aee8767fa3f0c0cf496",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\Диалог_А.qsps": "3e77cbb4ec3987d771627bf6ba975a7b",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\бар.qsps": "8166d710a495a60a1d6ec80c9f17564f",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\диалог.qsps": "9ce6f4474aa771c3759375dc3406421d"
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\1\\1.qsps": "41244de90a757a70f87dc0aa86a92a99",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\1\\комната_крвоать.qsps": "64fff50d38adc599887cbea45b4ab22e",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\1\\комната.qsps": "c23746da7b0661e4cb882cb343295098",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\1\\зеркало.qsps": "4046d26166abd280edb3db1a216d0936",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\1\\улица.qsps": "aa5a7375a8f2c5a63f687554722197e1",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\1\\лес.qsps": "588e615a0ee21897b963165e3d5348c6",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\1\\город.qsps": "c8f3026da113d21ef1eb3d1bd7e4525b",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\1.qsps": "f9609d105d31ac9b9b59e851c71e1eb3",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\календарь.qsps": "0c6f142511c13e9f248101cdf5aebd3b",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\город.qsps": "c63092394bf5b5210acda72e7d2f6ae1",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\улица.qsps": "a54a927b331a81aad3fceb0c78859034",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\зеркало.qsps": "8837bf574f618ecee4e959f440064203",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\комната.qsps": "acfd9cfad676bfb603a0956e754dae8d",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\комната_крвоать.qsps": "2d4fc8563f5b3e781e6314856c5ff199",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\simple_time\\_src\\2\\лес.qsps": "5f93cc81f0eab9badf2c19a0acc84999",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\Начало.qsps": "9deb73c36501d71d70dcd5ae2a91e0aa",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\код_диалог_а.qsps": "0a950b7f19495a1e5c6f669d1150c984",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\код_диалог.qsps": "bd3ed5ed258f1921dd90896d76524c37",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\код.qsps": "61cdcc319fb73b7ad11c6566ec640fb2",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\код_бар.qsps": "0b21dee4d77e3aee8767fa3f0c0cf496",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\Диалог_А.qsps": "3e77cbb4ec3987d771627bf6ba975a7b",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\бар.qsps": "8166d710a495a60a1d6ec80c9f17564f",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\dialogs_ex\\_src\\диалог.qsps": "9ce6f4474aa771c3759375dc3406421d",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_sys_getpos.qsps": "33c772468ecb891378d293e63ad496c1",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_obj_count.qsps": "1cb60a6832f9d4a68f005c6a6928c27e",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_obj_type.qsps": "46e583ec7ae0e529aaf37e4593d6cb9b",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\invadv_test\\start.qsps": "f49c6f51d1eddecf439a4ce44082f75b",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\00_help.qsps": "31ed22a7e43241ae16d9e0cfc238e178",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_add_obj.qsps": "0b9210b59cafa75e7b5b13bf580ca944",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_del_obj.qsps": "cc725f828453eddde5191816b73de8cc"
     }
 }

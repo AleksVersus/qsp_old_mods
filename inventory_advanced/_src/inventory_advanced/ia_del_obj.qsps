@@ -14,6 +14,7 @@ if IA_COUNT[$name_] > 0:
 	modobj $name_, @ia_obj_get_title($name_)
 else:
 	delobj $name_
+	if IA_COUNT[$name_] <0: IA_COUNT[$name_] = 0
 	!@ Эти строки не нужны, так как лучше сохранять типы и количество предмета
 	!@ killvar 'IA_COUNT', $name_
 	!@ killvar '$IA_TYPE', $name_

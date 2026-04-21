@@ -18,7 +18,7 @@ Ntropy (...@yandex.ru) 18.06.2009
 '
 ! END BASE
 !Загружаем библиотечку как простой список локаций
-inclib 'inventory_advanced.qsp'
+inclib 'lib/inventory_advanced.qsp'
 
 !Добавляем одну денежку и сразу ставим что считаем их в рублях
 @@ia_add_obj('деньги', 1, 'руб.')
