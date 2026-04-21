@@ -6,7 +6,8 @@
                 {
                     "path": "_src\\invadv_test\\"
                 }
-            ]
+            ],
+            "start_qsploc_file": "_src\\invadv_test\\start.qsps"
         },
         {
             "module": "_output_game\\inventory_advanced.qsp",
@@ -14,7 +15,8 @@
                 {
                     "path": "_src\\inventory_advanced\\"
                 }
-            ]
+            ],
+            "start_qsploc_file": "_src\\inventory_advanced\\00_help.qsps"
         }
     ],
     "start": "_output_game\\invadv_test.qsp",

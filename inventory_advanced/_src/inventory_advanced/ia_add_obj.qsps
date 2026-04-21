@@ -9,13 +9,11 @@ if no $name_: exit
 if no $type_: $type_ = $IA_TYPE[$name_]
 if no count_: count_ = 1
 !@ pl ['ia_add_obj', $name_, count_, $type_]
-!@ local pos_ = @ia_internal_del_obj($name_)	& !@ удаляем объект со старым наименованием
 if IA_COUNT[$name_] = 0: addobj $name_
 IA_COUNT[$name_] += count_	& !@ изменяем количество
 
 if $type_: $IA_TYPE[$name_] = $type_
 !@ pl ['ia_add_obj', 'restore obj', pos_, 'IA_COUNT: <<IA_COUNT[$name_]>>']
-!@ @ia_internal_add_obj($name_, pos_)	& !@ добавляем объект с новым наименованием
 !@ испытание modobj <$name>, <$title>, <$icon_path>
 modobj $name_, @ia_obj_get_title($name_)
 -- ia_add_obj ---------------------------------

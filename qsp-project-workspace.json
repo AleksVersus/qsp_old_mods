@@ -718,15 +718,6 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\commands\\debugger_addCond.qsps": [
-            [
-                "debugger_addCond",
-                [
-                    29,
-                    45
-                ]
-            ]
-        ],
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\_main\\debugger_onobjsel.qsps": [
             [
                 "debugger_onobjsel",
@@ -817,15 +808,6 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\_main\\debugger_arrInsert.qsps": [
-            [
-                "debugger_arrInsert",
-                [
-                    31,
-                    49
-                ]
-            ]
-        ],
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\commands\\debugger_loadCommand.qsps": [
             [
                 "debugger_loadCommand",
@@ -913,15 +895,6 @@
                 [
                     30,
                     47
-                ]
-            ]
-        ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\visual\\debugger_visual_command_process.qsps": [
-            [
-                "debugger_visual_command_process",
-                [
-                    44,
-                    75
                 ]
             ]
         ],
@@ -1302,6 +1275,33 @@
                     19
                 ]
             ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\visual\\debugger_visual_command_process.qsps": [
+            [
+                "debugger_visual_command_process",
+                [
+                    44,
+                    75
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\commands\\debugger_addCond.qsps": [
+            [
+                "debugger_addCond",
+                [
+                    29,
+                    45
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\_main\\debugger_arrInsert.qsps": [
+            [
+                "debugger_arrInsert",
+                [
+                    31,
+                    49
+                ]
+            ]
         ]
     },
     "files_paths": {
@@ -1389,6 +1389,9 @@
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\код_диалог_а.qsps": "0a950b7f19495a1e5c6f669d1150c984",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\код_диалог.qsps": "bd3ed5ed258f1921dd90896d76524c37",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\код.qsps": "61cdcc319fb73b7ad11c6566ec640fb2",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\код_бар.qsps": "0b21dee4d77e3aee8767fa3f0c0cf496"
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\код_бар.qsps": "0b21dee4d77e3aee8767fa3f0c0cf496",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\Диалог_А.qsps": "3e77cbb4ec3987d771627bf6ba975a7b",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\бар.qsps": "8166d710a495a60a1d6ec80c9f17564f",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\dialogs\\_src\\диалог.qsps": "9ce6f4474aa771c3759375dc3406421d"
     }
 }

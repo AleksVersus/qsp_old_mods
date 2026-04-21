@@ -9,5 +9,6 @@
 	{
 		"word_wrap": "true",
 		"rulers": [[100, "dotted", 1]],
+		// "color_scheme": "Packages/User/Dayle Rees Color Schemes/newest/contrast/Turnip.sublime-color-scheme",
 	}
 }
