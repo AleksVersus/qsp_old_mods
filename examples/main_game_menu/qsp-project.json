@@ -1,0 +1,24 @@
+{
+    "project": [
+        {
+            "module": "_output_game\\main_menu.qsp",
+            "folders": [
+                {
+                    "path": "_src\\"
+                }
+            ],
+            "start_qsploc_file": "_src\\Начало.qsps"
+        }
+    ],
+    "start": "_output_game\\main_menu.qsp",
+    "player": "..\\..\\..\\..\\QSP 590 QG 410b\\qspgui.exe",
+    "preprocessor": "Hard-off",
+    "assets": [
+        {
+            "output": ".\\_output_game",
+            "files": [
+                {"path": ".\\_src\\1.gif"}
+            ]
+        }
+    ]
+}
