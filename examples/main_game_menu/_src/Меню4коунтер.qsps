@@ -26,7 +26,7 @@ if a=2:'~~~~~~~НАЗВАНИЕ ИГРЫ~~~~~~~'
 *nl
 '<a href="exec:$counter='''' & gt ''Начало''">НАЧАТЬ ИГРУ</a>'
 *nl
-'<a href="exec:usehtml=0 & disablesubex=1 & $counter='''' & gt ''Меню4_код''">Показать код</a>'
+'<a href="exec:$counter='''' & gt ''гм.Код''">Показать код</a>'
 '</font></center>'
 a=a+1
 if a=3:a=0

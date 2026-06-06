@@ -18,9 +18,9 @@ lcolor=0
 *nl
 *nl
 ! кавычки атрибута href экранированы дублированием
-"<center><font size=8><a href=""exec:gt 'гм.Меню1' "">Пример меню с постепенным появлением</a></font></center>"
-"<center><font size=8><a href=""exec:gt 'гм.Меню2' "">Пример раскрашенного меню</a></font></center>"
-"<center><font size=8><a href=""exec:gt 'гм.Меню3' "">Пример использования GIF-анимации</a></font></center>"
-"<center><font size=8><a href=""exec:gt 'гм.Меню4' "">Пример простенькой ASCII-анимации</a></font></center>"
+"<center><font size=+3><a href=""exec:gt 'гм.Меню1' "">Пример меню с постепенным появлением</a></font></center>"
+"<center><font size=+3><a href=""exec:gt 'гм.Меню2' "">Пример раскрашенного меню</a></font></center>"
+"<center><font size=+3><a href=""exec:gt 'гм.Меню3' "">Пример использования GIF-анимации</a></font></center>"
+"<center><font size=+3><a href=""exec:gt 'гм.Меню4' "">Пример простенькой ASCII-анимации</a></font></center>"
 -- гм.Начало ---------------------------------
 

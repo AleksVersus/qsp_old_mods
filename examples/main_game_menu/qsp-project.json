@@ -13,7 +13,7 @@
     "start": "_output_game\\main_menu.qsp",
     "player": "..\\..\\..\\..\\QSP 590 QG 410b\\qspgui.exe",
     "preprocessor": "Hard-off",
-    "assets": [
+    "_assets": [
         {
             "output": ".\\_output_game",
             "files": [

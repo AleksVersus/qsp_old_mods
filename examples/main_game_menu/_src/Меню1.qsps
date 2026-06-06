@@ -5,7 +5,7 @@ QSP-Game Меню1
 local $game_name_ = '' & ! сюда помещаем видимое название игры.
 local $game_hide_name_ = 'НАЗВАНИЕ ИГРЫ' & ! сюда помещаем название игры, которое хотим вывести.
 ! Переменные с открывающими и закрывающими тегами:
-local $opens_, $closes_ = '<center><font size=10>', '</font></center>'
+local $opens_, $closes_ = '<center><h1>', '</h1></center>'
 ! У WladySpb в примере просто набирались символы друг за другом, из-за чего долгое время теги
 ! оставались не закрытыми. Это ломало отображение страницы и могло привести к багам в других плеерах.
 
@@ -30,7 +30,7 @@ loop local $f while $game_hide_name_:
     *pl $opens_ + $game_name_ + $closes_
 end
 ! В локальные переменные разметки записываем новые теги:
-$opens_, $closes_ = '<center><font size=8>', '</font></center>'
+$opens_, $closes_ = '<center><font size=+3>', '</font></center>'
 
 ! Три строки после названия:
 *nl
@@ -44,7 +44,7 @@ wait 1000
 *pl $opens_ + "<a href=""exec:gt 'гм.Авторы' "">Авторы</a>" + $closes_
 
 wait 1000
-*pl $opens_ + "<a href=""exec:gt 'Меню1_код' "">Показать код</a>" + $closes_
+*pl $opens_ + "<a href=""exec:gt 'гм.Код' "">Показать код</a>" + $closes_
 
 -- гм.Меню1 ---------------------------------
 
