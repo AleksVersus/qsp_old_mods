@@ -1,0 +1,15 @@
+QSP-Game Меню3
+
+# Меню3
+! BASE
+ACT 'Показать код':
+	usehtml=0
+	gt'Меню3_код'
+END
+! END BASE
+*nl
+*nl
+*nl
+'<center><a href="exec:gt''Начало''"><img src=1.gif></a></center>'
+-- Меню3 ---------------------------------
+

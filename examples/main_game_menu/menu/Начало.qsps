@@ -1,0 +1,21 @@
+QSP-Game Начало
+
+# гм.Начало
+! включаем распознавание HTML
+USEHTML=1
+! отключаем мешающие окна
+SHOWINPUT 0
+SHOWSTAT 0
+SHOWOBJS 0
+! назначаем стандартный цвет ссылок.
+lcolor=0
+! три строки перед выводом меню
+*nl
+*nl '<center>Перед вами набор простых примеров оформления главного меню игры с использованием HTML</center>'
+*nl
+'<center><font size=8><a href="exec:gt''Меню1''">Пример меню с постепенным появлением</font></center>'
+'<center><font size=8><a href="exec:gt''Меню2''">Пример раскрашенного меню</font></center>'
+'<center><font size=8><a href="exec:gt''Меню3''">Пример использования GIF-анимации</font></center>'
+'<center><font size=8><a href="exec:gt''Меню4''">Пример простенькой ASCII-анимации</font></center>'
+-- гм.Начало ---------------------------------
+

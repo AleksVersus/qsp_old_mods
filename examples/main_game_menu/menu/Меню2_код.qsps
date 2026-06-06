@@ -1,0 +1,23 @@
+QSP-Game Меню2_код
+
+# Меню2_код
+! BASE
+*P '*nl
+*nl
+*nl
+''<center><font size=6>''
+''<font color=red>Название</font> <font color=blue>Игры</font>''
+*nl
+''<font color=RGB(0,180,0)>Вступление</font>''
+*nl
+lcolor=RGB(180,180,0)
+''<a href="exec:gt''''Начало''''">Начать игру</a>''
+*nl
+''<a href="exec:usehtml=0 & gt''''Меню2_код''''">Показать код</a>''
+''</font></center>'''
+ACT 'Назад':
+	gt'Начало'
+END
+! END BASE
+-- Меню2_код ---------------------------------
+
