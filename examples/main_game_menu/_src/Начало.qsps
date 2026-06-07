@@ -22,5 +22,7 @@ lcolor=0
 "<center><font size=+3><a href=""exec:gt 'гм.Меню2' "">Пример раскрашенного меню</a></font></center>"
 "<center><font size=+3><a href=""exec:gt 'гм.Меню3' "">Пример использования GIF-анимации</a></font></center>"
 "<center><font size=+3><a href=""exec:gt 'гм.Меню4' "">Пример простенькой ASCII-анимации</a></font></center>"
+! в классическом плеере отключить подчёркивание ссылок можно с помощью класса "plain"
+"<center><font size=+3><a href=""exec:gt 'гм.Меню5' "" class=""plain"">Пример более сложной ASCII-анимации</a></font></center>"
 -- гм.Начало ---------------------------------
 

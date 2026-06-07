@@ -1,0 +1,75 @@
+QSP-Game локация-счётчик реализующая анимацию главного меню
+
+# Меню5коунтер
+! === локация-счётчик ===
+local %killstar, $print_lines
+! здесь реализуется анимация
+
+! перемещаем снежинки на следующую строку
+loop local i, y, x, r = 0, 0, 0, 0 while i < arrsize('%pole') step i+=1:
+    ! Каждая снежинка записана в массив %pole под своим номером
+    ! вытаскиваем координаты снежинки:
+    y, x = %pole[i]
+
+    ! перемещаем на новую строку:
+    y += 1
+    ! смещаем влево, вправо, или оставляем падать прямо
+    r = rand(0,200, 0) & ! мода 0 - снежинки преимущестенно будут падать влево
+    if r < 100:
+        x -= 1
+    elseif r > 150:
+        x += 1
+    end
+    ! если снежинка "упала" ниже последней строки. Помечаем её к удалению.
+    if y >= height: %killstar[] = [y, x]
+    ! если снежинка оказалась за строкой. Помечаем к удалению.
+    if x<1 or x>width: %killstar[] = [y, x]
+    ! перезаписываем координаты снежинки
+    %pole[i] = [y, x]
+end
+
+! удаляем помеченные к удалению снежинки
+loop local i while %killstar:
+    i = arrpos('%pole', %killstar[0])
+    killvar '%pole', i
+    killvar '%killstar', 0
+end
+! генерируем нужное количество снежинок в нулевой строке
+loop local i, x = stars, 0 while i step i-=1:
+    ! Вычисляем расположение снежинки в нулевой строке
+    x = rand(0, 84)
+    ! если такой снежинки в строке ещё нет, добавляем, записывая координаты в массив pole:
+    if arrpos('%pole', [0, x]) = -1:
+        %pole[] = [0, x]
+    end
+end
+
+copyarr '$print_lines', '$lines'
+
+! взяв за основу исходные строки, подменяем в них некоторые символы снежинками
+loop local i, y, x = 0, 0, 0 while i < arrsize('%pole') step i+=1:
+    ! получаем координаты снежинки
+    y, x = %pole[i]
+    ! заменяем указанный символ снежинкой
+    $print_lines[y] = $mid($print_lines[y], 1,x-1) + '*' +$mid($print_lines[y], x+1)
+end
+
+! ощичаем окно основного описания, выводим строки
+*clr
+*p '<font face="Consolas">'
+*pl $replace($print_lines[0], '*', '<font color=#008888>*</font>')
+*pl $replace($print_lines[1], '*', '<font color=#008888>*</font>')
+*pl $replace($print_lines[2], '*', '<font color=#008888>*</font>')
+*pl $replace($print_lines[3], '*', '<font color=#008888>*</font>')
+*pl $replace($print_lines[4], '*', '<font color=#008888>*</font>')
+*pl $replace($print_lines[5], '*', '<font color=#008888>*</font>')
+*pl $replace($print_lines[6], '*', '<font color=#008888>*</font>')
+*p '</font>'
+*nl
+! выводим пункты меню:
+*p '<center><font size=+4>'
+"<a href=""exec:$counter='' & gt 'гм.Начало'"">НАЧАТЬ ИГРУ</a>"
+*nl
+"<a href=""exec:$counter='' & gt 'гм.Код'"">Показать код</a>"
+*p '</font></center>'
+-- Меню5коунтер ---------------------------------
