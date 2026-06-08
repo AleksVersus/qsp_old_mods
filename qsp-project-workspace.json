@@ -1363,6 +1363,51 @@
                     296
                 ]
             ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\чекпойнт_проц.qsps": [
+            [
+                "чекпойнт_проц",
+                [
+                    26,
+                    39
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\ONGLOAD.qsps": [
+            [
+                "ONGLOAD",
+                [
+                    20,
+                    27
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\чекпойнт1.qsps": [
+            [
+                "чекпойнт1",
+                [
+                    22,
+                    31
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\чекпойнт2.qsps": [
+            [
+                "чекпойнт2",
+                [
+                    22,
+                    31
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\Начало.qsps": [
+            [
+                "Начало",
+                [
+                    19,
+                    25
+                ]
+            ]
         ]
     },
     "files_paths": {
@@ -1460,6 +1505,11 @@
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню5.qsps": "a96e1c7520c5328a4960558398ca351f",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню5каунтер.qsps": "9ae6f882d7be208d927171acfe1408fc",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню4.qsps": "776b0f1ee2f5887c57e2df7e05f78703",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Начало.qsps": "a755d0a872655e9f0cce58ae5e139431"
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Начало.qsps": "a755d0a872655e9f0cce58ae5e139431",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\чекпойнт_проц.qsps": "b0735f68073c1fdb7c27ba6e381c2a04",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\ONGLOAD.qsps": "592ad3c9f57adb3596606bcdb5090dc4",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\Начало.qsps": "ca0a6568183a08e8223c0ce2f091a3b0",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\чекпойнт1.qsps": "c7ed38d5195717e202a523f645693f6a",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\чекпойнт2.qsps": "b23301e9207dd5aabe23cea9d96aa06f"
     }
 }

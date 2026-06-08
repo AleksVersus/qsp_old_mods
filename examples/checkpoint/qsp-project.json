@@ -1,0 +1,25 @@
+{
+    "project": [
+        {
+            "module": "_output_game\\checkpoint.qsp",
+            "folders": [
+                {
+                    "path": "_src\\nex_module\\"
+                }
+            ],
+            "start_qsploc_file": "_src\\nex_module\\Начало.qsps"
+        },
+        {
+            "module": "_output_game\\avs_checkpoints.qsp",
+            "folders": [
+                {
+                    "path": "_src\\avs_module\\"
+                }
+            ],
+            "start_qsploc_file": "_src\\avs_module\\start.qsps"
+        }
+    ],
+    "start": "_output_game\\avs_checkpoints.qsp",
+    "player": "..\\..\\..\\..\\QSP 590 QG 410b\\qspgui.exe",
+    "preprocessor": "Hard-off"
+}
