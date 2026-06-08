@@ -1,0 +1,9 @@
+QSP-Game чекпойнт_проц
+
+# чекпойнт_проц
+$ONGLOAD = 'ONGLOAD'
+SAVEGAME 'auto_test.sav'
+$ONGLOAD = ''
+SAVEGAME 'auto.sav'
+-- чекпойнт_проц ---------------------------------
+

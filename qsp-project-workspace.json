@@ -1215,12 +1215,91 @@
                 ]
             ]
         ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\invadv_test\\status.qsps": [
+            [
+                "status",
+                [
+                    19,
+                    25
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню3.qsps": [
+            [
+                "гм.Меню3",
+                [
+                    18,
+                    26
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню2.qsps": [
+            [
+                "гм.Меню2",
+                [
+                    18,
+                    26
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Авторы.qsps": [
+            [
+                "гм.Авторы",
+                [
+                    3,
+                    12
+                ]
+            ],
+            [
+                "гм.Код",
+                [
+                    284,
+                    290
+                ]
+            ]
+        ],
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_add_obj.qsps": [
             [
                 "ia_add_obj",
                 [
                     260,
                     270
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню1.qsps": [
+            [
+                "гм.Меню1",
+                [
+                    18,
+                    26
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню4коунтер.qsps": [
+            [
+                "Меню4коунтер",
+                [
+                    25,
+                    37
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню5каунтер.qsps": [
+            [
+                "Меню5коунтер",
+                [
+                    63,
+                    75
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню5.qsps": [
+            [
+                "гм.Меню5",
+                [
+                    2,
+                    10
                 ]
             ]
         ],
@@ -1251,15 +1330,6 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\00_help.qsps": [
-            [
-                "ia_help",
-                [
-                    20,
-                    27
-                ]
-            ]
-        ],
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\invadv_test\\start.qsps": [
             [
                 "start",
@@ -1276,12 +1346,21 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\invadv_test\\status.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\00_help.qsps": [
             [
-                "status",
+                "ia_help",
                 [
-                    19,
-                    25
+                    20,
+                    27
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Начало.qsps": [
+            [
+                "гм.Начало",
+                [
+                    287,
+                    296
                 ]
             ]
         ]
@@ -1372,6 +1451,15 @@
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\invadv_test\\start.qsps": "f49c6f51d1eddecf439a4ce44082f75b",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\00_help.qsps": "8031ac33bce977754ba0f59900f0c442",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_add_obj.qsps": "0b9210b59cafa75e7b5b13bf580ca944",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_del_obj.qsps": "cc725f828453eddde5191816b73de8cc"
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\inventory_advanced\\_src\\inventory_advanced\\ia_del_obj.qsps": "cc725f828453eddde5191816b73de8cc",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню3.qsps": "bc55018a5089f33ef542d919b8449c0b",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню4коунтер.qsps": "61456915e426fe68dfce386365fbe051",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню2.qsps": "3229997ff8b4309b6ec919c44410da24",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Авторы.qsps": "3d81eeceb45f362631db43c253ffd489",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню1.qsps": "f93b4629f419e71a611f897c82140993",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню5.qsps": "a96e1c7520c5328a4960558398ca351f",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню5каунтер.qsps": "9ae6f882d7be208d927171acfe1408fc",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню4.qsps": "776b0f1ee2f5887c57e2df7e05f78703",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Начало.qsps": "a755d0a872655e9f0cce58ae5e139431"
     }
 }

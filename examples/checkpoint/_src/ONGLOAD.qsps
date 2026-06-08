@@ -1,0 +1,9 @@
+QSP-Game ONGLOAD
+
+# ONGLOAD
+KILLALL
+тест = 1
+есть_сейв = 1
+GOTO 'Начало'
+-- ONGLOAD ---------------------------------
+
