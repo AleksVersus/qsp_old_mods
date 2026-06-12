@@ -1,0 +1,17 @@
+{
+  "outputFile": "qsp_old_mods.qsp",
+  "files": [
+    "examples/checkpoint/_src/avs_module/00_start.qsps",
+    "debugger/_src/lib/_main/*.qsps",
+    "debugger/_src/lib/commands/*.qsps",
+    "debugger/_src/lib/visual/*.qsps",
+    "examples/checkpoint/_src/avs_module/*.qsps",
+    "examples/checkpoint/_src/nex_module/*.qsps",
+    "examples/dialogs_ex/_src/*.qsps",
+    "examples/main_game_menu/_src/*.qsps",
+    "examples/simple_time/_src/1/*.qsps",
+    "examples/simple_time/_src/2/*.qsps",
+    "inventory_advanced/_src/invadv_test/*.qsps",
+    "inventory_advanced/_src/inventory_advanced/*.qsps"
+  ]
+}
