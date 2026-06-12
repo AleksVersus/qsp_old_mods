@@ -16,7 +16,7 @@
                     "path": "_src\\avs_module\\"
                 }
             ],
-            "start_qsploc_file": "_src\\avs_module\\start.qsps"
+            "start_qsploc_file": "_src\\avs_module\\00_start.qsps"
         }
     ],
     "start": "_output_game\\avs_checkpoints.qsp",

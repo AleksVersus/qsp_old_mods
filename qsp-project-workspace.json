@@ -1364,16 +1364,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\чекпойнт_проц.qsps": [
-            [
-                "чекпойнт_проц",
-                [
-                    26,
-                    39
-                ]
-            ]
-        ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\ONGLOAD.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\ONGLOAD.qsps": [
             [
                 "ONGLOAD",
                 [
@@ -1382,7 +1373,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\чекпойнт1.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\чекпойнт1.qsps": [
             [
                 "чекпойнт1",
                 [
@@ -1391,7 +1382,7 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\чекпойнт2.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\чекпойнт2.qsps": [
             [
                 "чекпойнт2",
                 [
@@ -1400,7 +1391,16 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\Начало.qsps": [
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\чекпойнт_проц.qsps": [
+            [
+                "чекпойнт_проц",
+                [
+                    26,
+                    39
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\Начало.qsps": [
             [
                 "Начало",
                 [
@@ -1506,10 +1506,10 @@
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню5каунтер.qsps": "9ae6f882d7be208d927171acfe1408fc",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Меню4.qsps": "776b0f1ee2f5887c57e2df7e05f78703",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\main_game_menu\\_src\\Начало.qsps": "a755d0a872655e9f0cce58ae5e139431",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\чекпойнт_проц.qsps": "b0735f68073c1fdb7c27ba6e381c2a04",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\ONGLOAD.qsps": "592ad3c9f57adb3596606bcdb5090dc4",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\Начало.qsps": "ca0a6568183a08e8223c0ce2f091a3b0",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\чекпойнт1.qsps": "c7ed38d5195717e202a523f645693f6a",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\чекпойнт2.qsps": "b23301e9207dd5aabe23cea9d96aa06f"
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\Начало.qsps": "b2ef534dcfdaed271dca8b2048e2f88f",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\ONGLOAD.qsps": "f2b8591650cc95b01027b66734e0f1ac",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\чекпойнт1.qsps": "866fd8ad62fcc2a5f509d187380942bf",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\чекпойнт2.qsps": "c159c6e8bb9b3734cfaf8c06eedc6065",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\чекпойнт_проц.qsps": "599850912bff925b97139a91053289b6"
     }
 }
