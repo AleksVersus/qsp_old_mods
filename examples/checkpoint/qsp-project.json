@@ -21,5 +21,15 @@
     ],
     "start": "_output_game\\avs_checkpoints.qsp",
     "player": "..\\..\\..\\..\\QSP 590 QG 410b\\qspgui.exe",
-    "preprocessor": "Hard-off"
+    "preprocessor": "Hard-off",
+    "_assets": [
+        {
+            "output": ".\\_output_game",
+            "files": [
+                {"path": ".\\_src\\avs_module\\avs_checkpoints.excalidraw"},
+                {"path": ".\\_src\\avs_module\\avs_checkpoints.png"},
+                {"path": ".\\_src\\avs_module\\README.md"}
+            ]
+        }
+    ]
 }
