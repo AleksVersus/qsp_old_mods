@@ -1,8 +1,8 @@
 QSP-Game Тянуть карту
 
-# Тянуть карту
+# pc_pull_card
 ! Запрашиваем длину массива
-_length = ARRSIZE('$random')
+local _length = ARRSIZE('$random')
 ! Если вариантов уже нет, возвращаем 'ERROR'
 IF _length = 0:
     $RESULT = 'ERROR'
@@ -10,7 +10,7 @@ IF _length = 0:
 END
 
 ! Выбираем из массива случайный элемент, соотв. длине массива
-_variant = RAND(0, _length-1)
+local _variant = RAND(0, _length-1)
 ! Запоминаем результат
 $RESULT = $random[_variant]
 

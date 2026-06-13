@@ -1417,6 +1417,24 @@
                     25
                 ]
             ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\pullcard\\_src\\Тянуть карту.qsps": [
+            [
+                "Тянуть карту",
+                [
+                    25,
+                    37
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\pullcard\\_src\\1.qsps": [
+            [
+                "1",
+                [
+                    14,
+                    15
+                ]
+            ]
         ]
     },
     "files_paths": {
@@ -1523,6 +1541,8 @@
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\avs_module\\02_syssave.qsps": "d3c4539e0220e3fe0ee4f8c2fa20eff9",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\_main\\debugger_process.qsps": "1ea75fadf65557dfc01394483a7e53e5",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\avs_module\\00_start.qsps": "8016be726c5c6ff2e9879ad34a86252e",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\avs_module\\places.qsps": "029c9bdcd8ce6e55f4de770818909547"
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\avs_module\\places.qsps": "029c9bdcd8ce6e55f4de770818909547",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\pullcard\\_src\\Тянуть карту.qsps": "f9869829fbb44e227eb5b91b5de9365e",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\pullcard\\_src\\1.qsps": "b2d5bde1ffa24d5f91d8f5bd5afbbdf5"
     }
 }
