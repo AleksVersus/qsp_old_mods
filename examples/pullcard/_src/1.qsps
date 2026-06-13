@@ -1,0 +1,31 @@
+QSP-Game 1
+
+# 1
+! BASE
+ACT 'Еще раз':
+	GOTO '1'
+END
+! END BASE
+SHOWINPUT 0
+SHOWSTAT 0
+SHOWOBJS 0
+
+$random[0]='A'
+$random[1]='B'
+$random[2]='C'
+$random[3]='D'
+$random[4]='E'
+$random[5]='F'
+$random[6]='G'
+
+*CLR
+i = 1
+:loop
+    $rand = FUNC('Тянуть карту')
+    'Шаг №<<i>>. Значение: <<$rand>>'
+    i = i + 1
+IF i <= 7:
+    JUMP 'loop'
+END
+-- 1 ---------------------------------
+

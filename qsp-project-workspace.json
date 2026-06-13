@@ -567,15 +567,6 @@
                 ]
             ]
         ],
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\_main\\debugger_process.qsps": [
-            [
-                "debugger_process",
-                [
-                    29,
-                    45
-                ]
-            ]
-        ],
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\_main\\debugger_implode.qsps": [
             [
                 "debugger_implode",
@@ -1400,6 +1391,24 @@
                 ]
             ]
         ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\avs_module\\01_ongload.qsps": [
+            [
+                "chpts.on_game_load",
+                [
+                    3,
+                    21
+                ]
+            ]
+        ],
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\avs_module\\02_syssave.qsps": [
+            [
+                "chpts.save_game",
+                [
+                    3,
+                    18
+                ]
+            ]
+        ],
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\Начало.qsps": [
             [
                 "Начало",
@@ -1420,7 +1429,6 @@
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\visual\\debugger_visual_cond.qsps": "f01d7be3255469a9f895aa13fb50f438",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\commands\\debugger_showVars.qsps": "57d848928f38cc52fd1359830c9465e4",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\_main\\debugger_commands.qsps": "b673774aa74fed823142c39680a4564b",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\_main\\debugger_process.qsps": "1ea75fadf65557dfc01394483a7e53e5",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\_main\\debugger_implode.qsps": "f23384b8b235e11a0d82f1b02d7722cc",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\commands\\debugger_clearCode.qsps": "b24e433352bd50da3fc15ef6a670cbee",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\visual\\debugger_visual_vars_process.qsps": "6f959bfe817f3d8e5a5cf9e3df57b4aa",
@@ -1510,6 +1518,11 @@
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\ONGLOAD.qsps": "f2b8591650cc95b01027b66734e0f1ac",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\чекпойнт1.qsps": "866fd8ad62fcc2a5f509d187380942bf",
         "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\чекпойнт2.qsps": "c159c6e8bb9b3734cfaf8c06eedc6065",
-        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\чекпойнт_проц.qsps": "599850912bff925b97139a91053289b6"
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\nex_module\\чекпойнт_проц.qsps": "599850912bff925b97139a91053289b6",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\avs_module\\01_ongload.qsps": "37fd31da6639f1f3a885f4b8acbad690",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\avs_module\\02_syssave.qsps": "d3c4539e0220e3fe0ee4f8c2fa20eff9",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\debugger\\_src\\lib\\_main\\debugger_process.qsps": "1ea75fadf65557dfc01394483a7e53e5",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\avs_module\\00_start.qsps": "8016be726c5c6ff2e9879ad34a86252e",
+        "D:\\my\\GameDev\\QuestSoftPlayer\\archfiles\\qsp_old_mods\\examples\\checkpoint\\_src\\avs_module\\places.qsps": "029c9bdcd8ce6e55f4de770818909547"
     }
 }
