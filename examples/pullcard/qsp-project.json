@@ -4,13 +4,22 @@
             "module": "_output_game\\pullcard.qsp",
             "folders": [
                 {
-                    "path": "_src\\"
+                    "path": "_src\\nex"
                 }
             ],
-            "start_qsploc_file": "_src\\1.qsps"
+            "start_qsploc_file": "_src\\nex\\1.qsps"
+        },
+        {
+            "module": "_output_game\\choose_random_card.qsp",
+            "folders": [
+                {
+                    "path": "_src\\avs"
+                }
+            ],
+            "start_qsploc_file": "_src\\avs\\00_start.qsps"
         }
     ],
-    "start": "_output_game\\pullcard.qsp",
+    "start": "_output_game\\choose_random_card.qsp",
     "player": "..\\..\\..\\..\\QSP 590 QG 410b\\qspgui.exe",
     "preprocessor": "Hard-off"
 }
